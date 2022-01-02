@@ -54,13 +54,12 @@ h1, h2, h3, h4, p {
     color: inherit;
     text-decoration: none;
     letter-spacing: 2px;
-    padding: 15px;
+    padding: 20px;
 }
 
 #nav-bar li {
     list-style-type: none;
     display: inline-block;
-    margin: 20px;
 }
 
 #logo, #nav-bar {
@@ -76,6 +75,111 @@ h1, h2, h3, h4, p {
 }
 
 .logo-right img {
-    width: 300px;
+    max-width: 300px;
     height: auto;
+}
+
+
+
+
+
+
+
+/* media query for large screens 1281px to higher resolution desktops */
+@media (min-width: 1025px) and (max-width: 1599px) {
+     /* logo and navigation bar */
+    #logo-left {
+        font-size: 160%;
+    }
+    #nav-bar {
+        font-size: 110%;
+    }
+
+    #nav-bar a {
+        padding: 15px;
+    }
+
+    .logo-right img {
+        max-width: 200px;
+    }
+
+    
+}
+
+/* media query for tablets and iPad */
+@media (min-width: 768px) and (max-width: 1024px) {
+     /* logo and navigation bar */
+    #logo-left {
+    font-size: 110%;
+    }
+
+    #nav-bar {
+    font-size: 100%;
+    }
+
+    #nav-bar a {
+    padding: 8px;
+    }
+
+    .logo-right img {
+    max-width: 150px;
+    }
+    
+}
+
+/* media query for small tablets and larger mobile phones */
+@media (min-width: 480px) and (max-width: 899px) {
+     /* logo and navigation bar */
+    #logo-left {
+        font-size: 80%;
+    }
+
+    #nav-bar {
+        font-size: 70%;
+    }
+
+    #nav-bar a {
+        padding: 5px;
+    }
+
+    #logo-left,
+    #nav-bar {
+        line-height: 40px;
+    }
+
+    .logo-right img {
+        max-width: 90px;
+    }
+    
+}
+
+/* media query for mobile phones with smaller screens */
+@media (min-width: 320px) and (max-width: 479px) {
+    html, body {
+        font-size: x-small;
+        overflow: hidden;
+    }
+    /* logo and navigation bar */
+    #nav-container {
+        flex-direction: column;
+    }
+
+    #logo-left {
+        font-size: 80%;
+    }
+
+    #nav-bar {
+        font-size: 70%;
+    }
+
+    #nav-bar a {
+        padding: 10px;
+    }
+
+    .logo-right img {
+        max-width: 90px;
+    }
+    #logo-left, #nav-bar {
+        line-height: 30px;
+    }
 }
