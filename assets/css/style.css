@@ -1,8 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 
-
-
-
 body {
-    background-color: aqua;
+    font-family: Lato, Roboto, "Open Sans", sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+h1, h2, h3, h4, p {
+    letter-spacing: 1.5px;
+}
+
+/* logo and navigation bar */
+#nav-container {
+    width: 100%;
+    padding: 20px 0;
+}
+
+#logo {
+    font-size: 300%;
+    font-family: fantasy;
+    font-weight: bolder;
+    float: left;
+   
+}
+
+#logo a {
+    list-style-type: none;
+    text-decoration: none;
+
+    
+}
+
+#logo h1 {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#nav-bar {
+    font-size: 180%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#nav-bar a {
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    
+}
+
+#nav-bar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+#logo, #nav-bar {
+    line-height: 80px;
+}
+
+#nav-bar a:hover {
+    background-color: orange;
+   
+}
+
+.active {
+    border-bottom: 2px solid rgb(50, 238, 91);
 }
