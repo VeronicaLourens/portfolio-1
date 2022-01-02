@@ -20,7 +20,7 @@ h1, h2, h3, h4, p {
 /* logo and navigation bar */
 #nav-container {
     width: 100%;
-    padding: 20px 0;
+    padding: 20px; 
 }
 
 #logo {
@@ -28,40 +28,39 @@ h1, h2, h3, h4, p {
     font-family: fantasy;
     font-weight: bolder;
     float: left;
-   
+    margin: 20px;
+    vertical-align: auto;
 }
 
 #logo a {
     list-style-type: none;
     text-decoration: none;
-
-    
 }
 
 #logo h1 {
     color: white;
     text-decoration: none;
-    margin-left: 30px;
+    text-align: center; 
 }
 
 #nav-bar {
     font-size: 180%;
     text-align: center;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 #nav-bar a {
     color: inherit;
     text-decoration: none;
     letter-spacing: 1.5px;
-    
+    padding: 10px;
 }
 
 #nav-bar li {
     list-style-type: none;
     display: inline-block;
-    padding: 20px;
+    /* padding: 20px; */
+    margin: 20px;
 }
 
 #logo, #nav-bar {
@@ -70,7 +69,6 @@ h1, h2, h3, h4, p {
 
 #nav-bar a:hover {
     background-color: orange;
-   
 }
 
 .active {
