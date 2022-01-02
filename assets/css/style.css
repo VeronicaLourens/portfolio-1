@@ -19,8 +19,9 @@ h1, h2, h3, h4, p {
 
 /* logo and navigation bar */
 #nav-container {
-    width: 100%;
+    width: 90%;
     padding: 20px; 
+    margin: 0 auto;
 }
 
 #logo {
@@ -28,13 +29,15 @@ h1, h2, h3, h4, p {
     font-family: fantasy;
     font-weight: bolder;
     float: left;
-    margin: 20px;
+    margin-left: 20px;
     vertical-align: auto;
+    padding: 15px;
 }
 
 #logo a {
     list-style-type: none;
     text-decoration: none;
+    
 }
 
 #logo h1 {
@@ -52,14 +55,13 @@ h1, h2, h3, h4, p {
 #nav-bar a {
     color: inherit;
     text-decoration: none;
-    letter-spacing: 1.5px;
-    padding: 10px;
+    letter-spacing: 2px;
+    padding: 15px;
 }
 
 #nav-bar li {
     list-style-type: none;
     display: inline-block;
-    /* padding: 20px; */
     margin: 20px;
 }
 
