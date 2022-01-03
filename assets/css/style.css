@@ -107,6 +107,43 @@ h1, h2, h3, h4, p {
     line-height: 110px;
 }
 
+/* mid-page section: about us and out mission */
+#mid-page-container {
+    width: 100%;
+}
+
+#box-one, #box-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box-text {
+    width: 40%;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 20px;
+    margin: 30px;
+   
+}
+
+
+.flex-box-text h3 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.image-box img {
+    border-radius: 10px;
+    
+}
+.image-box {
+    margin: 0 auto;
+}
+
 
 
 
