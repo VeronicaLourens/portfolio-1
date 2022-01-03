@@ -111,7 +111,7 @@ h1, h2, h3, h4, p {
 
 
 
-/* media query for large screens 1281px to higher resolution desktops */
+/* media query for large screens 1025px to higher resolution desktops */
 @media (min-width: 1025px) and (max-width: 1599px) {
      /* logo and navigation bar */
     #logo-left {
@@ -127,6 +127,17 @@ h1, h2, h3, h4, p {
 
     .logo-right img {
         max-width: 200px;
+    }
+
+    /* hero section */
+    #hero-image {
+        height: 750px;
+    }
+    .hero-text h1 {
+        font-size: 160%;
+    }
+    .hero-text {
+        margin-left: 50px;
     }
 
     
@@ -149,6 +160,18 @@ h1, h2, h3, h4, p {
 
     .logo-right img {
     max-width: 150px;
+    }
+    /* hero section */
+    #hero-image {
+        height: 500px;
+    }
+
+    .hero-text h1 {
+        font-size: 100%;
+        line-height: 70px;
+    }
+    .hero-text {
+        margin-left: 30px;
     }
     
 }
@@ -175,6 +198,19 @@ h1, h2, h3, h4, p {
 
     .logo-right img {
         max-width: 90px;
+    }
+    /* hero section */
+    #hero-image {
+        height: 350px;
+    }
+
+    .hero-text h1 {
+        font-size: 60%;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+    .hero-text {
+        margin: auto;
     }
     
 }
@@ -207,5 +243,17 @@ h1, h2, h3, h4, p {
     }
     #logo-left, #nav-bar {
         line-height: 30px;
+    }
+    /* hero section */
+    #hero-image {
+        height: 210px;
+    }
+    .hero-text h1 {
+        font-size: 50%;
+        letter-spacing: 1.8px;
+        line-height: 20px;
+    }
+    .hero-text {
+        margin: auto;
     }
 }
