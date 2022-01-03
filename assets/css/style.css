@@ -79,6 +79,23 @@ h1, h2, h3, h4, p {
     height: auto;
 }
 
+/* hero section */
+#hero-container {
+    width: 100%;
+    position: relative;
+
+}
+
+#hero-image {
+    background: url("../images/lamwhitehero.jpg" );
+    max-width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
 
 
 
