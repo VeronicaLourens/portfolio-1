@@ -108,10 +108,6 @@ h1, h2, h3, h4, p {
 }
 
 /* mid-page section: about us and out mission */
-#mid-page-container {
-    width: 100%;
-}
-
 .welcome-msg {
     font-size: 120%;
     text-align: center;
@@ -125,8 +121,14 @@ h1, h2, h3, h4, p {
     font-weight: bolder;
 }
 
-#box-one, #box-two {
+#mid-page-container {
     width: 100%;
+    overflow: hidden;
+}
+
+#box-one, #box-two {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,6 +152,8 @@ h1, h2, h3, h4, p {
 }
 
 .image-box img {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
     
 }
