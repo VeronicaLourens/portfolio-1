@@ -107,7 +107,7 @@ h1, h2, h3, h4, p {
     line-height: 110px;
 }
 
-/* mid-page section: about us and out mission */
+/* mid-page section: about us and our mission */
 .welcome-msg {
     font-size: 120%;
     text-align: center;
@@ -159,6 +159,37 @@ h1, h2, h3, h4, p {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    
+}
+
+/* our commitment section */
+#com-container {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+
+    
+}
+
+/* .com-container img {
+    max-width: 100%;
+    height: auto;
+    
+} */
+
+.com-list {
+    width: 500px;
+    text-align: center;
+    float: right;
+}
+
+.com-list h3 {
+    text-transform: uppercase;
+
+}
+.com-list h4 {
     
 }
 
