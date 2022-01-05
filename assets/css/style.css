@@ -216,18 +216,18 @@ h1, h2, h3, h4, p {
 .social-media-links li {
     list-style-type: none;
     display: inline-block;
-    padding: 8px;
-
+    padding: 6px;
 }
 
 .social-media-links a {
-    font-size: large;
+    font-size: medium;
     color: rgb(255, 255, 255);
 }
 
 footer {
     margin: 50px 0;
 }
+
 .disclaimer-text {
     font-size: 10px;
     text-align: center;
@@ -282,7 +282,7 @@ footer {
 
 
 /* media query for tablets and iPad */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 900px) and (max-width: 1024px) {
      /* logo and navigation bar */
     #logo-left {
     font-size: 110%;
@@ -318,9 +318,16 @@ footer {
         width: 90%;
     }
     /* our commitment section */
+    #com-container {
+        height: auto;
+    }
+    #com-container h3,
+    #con-container h4 {
+        font-size: 100%;
+    }
     .com-list {
         width: 450px;
-        top: 25%;
+        top: 50%;
         left: 25%;
     }
     
@@ -372,6 +379,9 @@ footer {
          width: 90%;
      }
      /* our commitment section */
+     #com-container {
+         height: auto;
+     }
       #com-container img {
         margin-bottom: 30px;
       }
@@ -384,6 +394,16 @@ footer {
       .com-list h4 {
           font-size: 100%;
           padding: 10px;
+      }
+      /* footer */
+      .flex-box {
+          flex-direction: column;
+      }
+
+      footer div {
+          margin: 15px 0;
+          text-align: center;
+
       }
     
 }
@@ -446,6 +466,9 @@ footer {
           flex-direction: column;
       }
       /* our commitment section */
+      #com-container {
+          height: auto;
+      }
       #com-container img {
           margin-bottom: 30px;
       }
@@ -457,6 +480,16 @@ footer {
       .com-list h3,
       .com-list h4 {
           padding: 8px;
+      }
+      /* footer */
+      .flex-box {
+          flex-direction: column;
+      }
+
+      footer div {
+        margin: 15px 0;
+        text-align: center;
+
       }
       
 
