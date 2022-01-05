@@ -228,7 +228,12 @@ h1, h2, h3, h4, p {
 footer {
     margin: 50px 0;
 }
-
+.disclaimer-text {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
 
 
 /* media query for large screens 1025px to higher resolution desktops */
