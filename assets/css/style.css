@@ -180,7 +180,6 @@ h1, h2, h3, h4, p {
     left: 20%;
     transform: translate(-50%, -50%);
     position: absolute;
-
 }
 
 .com-list h3 {
@@ -196,10 +195,39 @@ h1, h2, h3, h4, p {
     letter-spacing: 1px;
     margin: 5px;
     border-radius: 10px;
+}
+
+/* footer */
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-box h4 {
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.flex-box p {
+   line-height: 22px;
+}
+
+.social-media-links li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px;
 
 }
 
+.social-media-links a {
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
 
+footer {
+    margin: 50px 0;
+}
 
 
 
