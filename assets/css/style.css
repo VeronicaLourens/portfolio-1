@@ -206,7 +206,7 @@ h1, h2, h3, h4, p {
 
 .flex-box h4 {
     text-transform: uppercase;
-    padding-bottom: 8px;
+    padding: 8px 0;
 }
 
 .flex-box p {
@@ -216,11 +216,11 @@ h1, h2, h3, h4, p {
 .social-media-links li {
     list-style-type: none;
     display: inline-block;
-    padding: 6px;
+    padding: 8px;
 }
 
 .social-media-links a {
-    font-size: medium;
+    font-size: large;
     color: rgb(255, 255, 255);
 }
 
@@ -325,14 +325,23 @@ footer {
     #box-two {
         width: 90%;
     }
-     /* our commitment section */
+
+    /* our commitment section */
+    #com-container {
+        height: 80%;
+
+    }
      .com-list {
+        top: 50%;
         left: 25%;
      }
     
 
     
 }
+
+
+
 
 
 
@@ -376,9 +385,9 @@ footer {
     #com-container {
         height: auto;
     }
-    #com-container h3,
+   
     #con-container h4 {
-        font-size: 100%;
+        font-size: 90%;
     }
     .com-list {
         width: 450px;
@@ -453,7 +462,6 @@ footer {
       }
      .com-list {
          all: unset;
-         width: 70%;
          text-align: center;
      }
       .com-list h3,
@@ -564,7 +572,9 @@ footer {
       footer div {
         margin: 15px 0;
         text-align: center;
-
+      }
+      footer {
+          margin: 20px 0;
       }
 
       /* gallery page */
