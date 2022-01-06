@@ -112,6 +112,7 @@ h1, h2, h3, h4, p {
     font-size: 120%;
     text-align: center;
     padding: 30px 0;
+    margin: 20px 0;
     line-height: 40px;
 
 }
@@ -445,6 +446,10 @@ footer {
         margin: auto;
     }
      /* mid-page section */
+    .welcome-msg {
+        padding: 10px 0;
+        margin: 10px 0;
+    }
      #box-one,
      #box-two {
          flex-direction: column;
@@ -535,8 +540,9 @@ footer {
      /* mid-page section */
      .welcome-msg {
          font-size: 100%;
-         padding: 10px 0;
          line-height: 20px;
+         padding: 10px 0;
+         margin: 10px 0;
      }
      .flex-box-text {
          width: 90%;
