@@ -86,7 +86,7 @@ h1, h2, h3, h4, p {
 }
 
 #hero-image {
-    background: url("../images/lamwhitehero.jpg") no-repeat center center;
+    background: url("../images/lamwhitehero.avif") no-repeat center center;
     max-width: 100%;
     height: 900px;
     background-size: cover;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, p {
 .com-list h4 {
     font-size: 120%;
     line-height: 20px;
-    background-color: #1884F0;
+    background-color: #0954a0;
     display: block;
     padding: 15px;
     letter-spacing: 1px;
@@ -235,7 +235,7 @@ footer {
 }
 
 .disclaimer-text {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     padding: 10px 0;
     margin: 10px 0 20 0;
@@ -589,7 +589,7 @@ footer {
 /* media query for mobile phones with smaller screens */
 @media (min-width: 320px) and (max-width: 479px) {
     html, body {
-        font-size: x-small;
+        font-size: small;
         overflow: hidden;
     }
     /* logo and navigation bar */
@@ -602,11 +602,12 @@ footer {
     }
 
     #nav-bar {
-        font-size: 70%;
+        font-size: 80%;
+        margin: 10px 0;
     }
 
     #nav-bar a {
-        padding: 10px;
+        padding: 15px;
     }
 
     .logo-right img {
@@ -634,11 +635,15 @@ footer {
          padding: 10px 0;
          margin: 10px 0;
      }
+     .welcome-msg h3 {
+         padding: 5px;
+         margin: 5px;
+     }
      .flex-box-text {
          width: 90%;
          margin: 10px;
          padding: 10px;
-         line-height: 15px;
+         line-height: 18px;
      }
       #box-one,
       #box-two {
@@ -659,6 +664,7 @@ footer {
       .com-list h3,
       .com-list h4 {
           padding: 8px;
+          font-size: 90%;
       }
       /* footer */
       .flex-box {
