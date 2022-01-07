@@ -304,14 +304,14 @@ footer {
     border-radius: 15px;
 
 }
-.right-box {
+#right-box {
     width: 40%;
     padding: 20px;
     margin: 20px;
     font-size: 100%;
     line-height: 25px;
 }
-.right-box h2 {
+#right-box h2 {
     text-transform: uppercase;
 }
 
@@ -517,7 +517,20 @@ footer {
       }
 
       .info-container div {
-          width: 90%;
+        width: 90%;
+      }
+      /* contact page */
+      #top-container {
+        flex-direction: column;
+      }
+
+      #top-container img {
+          max-width: 80%;
+      }
+
+      #right-box {
+        width: 80%;
+        display: block;
       }
 
      
@@ -622,6 +635,21 @@ footer {
       .text-box {
           line-height: 15px;
       }
+
+     /* contact page */
+     #top-container {
+         flex-direction: column;
+     }
+
+     #top-container img {
+         max-width: 80%;
+     }
+
+     #right-box {
+         width: 90%;
+         line-height: 15px;
+     }
+    
       
 
 }
