@@ -310,6 +310,7 @@ footer {
     margin: 20px;
     font-size: 100%;
     line-height: 25px;
+    letter-spacing: 2px;
 }
 /* #right-box h2 {
     text-transform: uppercase;
@@ -317,8 +318,8 @@ footer {
 
 #contact-container {
     max-width: 50%;
-    padding: 30px;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 20px auto;
     background: #5d656d;
     border-radius: 10px;
 }
@@ -326,7 +327,7 @@ footer {
 .contact-form input, select, textarea {
     width: 100%;
     font-size: 100%;
-    letter-spacing: 1px;
+    letter-spacing: 1.8px;
     padding: 10px;
     margin-top: 8px;
     margin-bottom: 12px;
@@ -345,6 +346,7 @@ footer {
     width: 150px;
     font-weight: bold;
     font-size: 20px;
+    letter-spacing: 2px;
     background-color: #1884F0;
     color: white;
     padding: 15px;
@@ -576,6 +578,9 @@ footer {
         width: 80%;
         display: block;
       }
+      #contact-container {
+          max-width: 80%;
+      }
 
      
     
@@ -692,6 +697,10 @@ footer {
      #right-box {
          width: 90%;
          line-height: 15px;
+     }
+
+     #contact-container {
+         max-width: 80%;
      }
     
       
