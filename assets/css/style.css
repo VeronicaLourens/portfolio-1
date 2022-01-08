@@ -114,7 +114,6 @@ h1, h2, h3, h4, p {
     padding: 30px 0;
     margin: 20px 0;
     line-height: 40px;
-
 }
 
 .welcome-msg span {
@@ -146,7 +145,6 @@ h1, h2, h3, h4, p {
     text-align: left;
     padding: 20px;
     margin: 30px;
-   
 }
 
 
@@ -160,7 +158,6 @@ h1, h2, h3, h4, p {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    
 }
 
 /* our commitment section */
@@ -170,8 +167,6 @@ h1, h2, h3, h4, p {
     position: relative;
     margin-top: 30px;
     overflow: hidden;
-
-    
 }
 
 .com-list {
@@ -302,7 +297,6 @@ footer {
 #top-container img {
     max-width: 50%;
     border-radius: 15px;
-
 }
 #right-box {
     width: 40%;
@@ -312,9 +306,6 @@ footer {
     line-height: 25px;
     letter-spacing: 2px;
 }
-/* #right-box h2 {
-    text-transform: uppercase;
-} */
 
 #contact-container {
     max-width: 50%;
@@ -333,8 +324,6 @@ footer {
     margin-bottom: 12px;
     border: 1px solid #5d656d;
     border-radius: 8px;
-    
-
 }
 
 .contact-form label {
@@ -354,7 +343,6 @@ footer {
     text-align: center;
     display: block;
     margin: 0 auto;
-    
 }
 
 .contact-form button:hover {
@@ -365,350 +353,3 @@ footer {
 
 
 
-
-/* media query for large screens 1025px to higher resolution desktops */
-@media (min-width: 1025px) and (max-width: 2112px) {
-     /* logo and navigation bar */
-    #logo-left {
-        font-size: 160%;
-    }
-    #nav-bar {
-        font-size: 110%;
-    }
-
-    #nav-bar a {
-        padding: 15px;
-    }
-
-    .logo-right img {
-        max-width: 200px;
-    }
-
-    /* hero section */
-    #hero-image {
-        height: 750px;
-    }
-    .hero-text h1 {
-        font-size: 160%;
-    }
-    .hero-text {
-        margin-left: 50px;
-    }
-
-    /* mid-page section */
-    #box-one,
-    #box-two {
-        width: 90%;
-    }
-
-    /* our commitment section */
-    #com-container {
-        height: 80%;
-
-    }
-     .com-list {
-        top: 50%;
-        left: 25%;
-     }
-    
-
-    
-}
-
-
-
-
-
-
-/* media query for tablets and iPad */
-@media (min-width: 900px) and (max-width: 1024px) {
-     /* logo and navigation bar */
-    #logo-left {
-    font-size: 110%;
-    }
-
-    #nav-bar {
-    font-size: 100%;
-    }
-
-    #nav-bar a {
-    padding: 8px;
-    }
-
-    .logo-right img {
-    max-width: 150px;
-    }
-    /* hero section */
-    #hero-image {
-        height: 500px;
-    }
-
-    .hero-text h1 {
-        font-size: 100%;
-        line-height: 70px;
-    }
-    .hero-text {
-        margin-left: 30px;
-    }
-
-    /* mid-page section */
-    #box-one,
-    #box-two {
-        width: 90%;
-    }
-    /* our commitment section */
-    #com-container {
-        height: auto;
-    }
-   
-    #con-container h4 {
-        font-size: 90%;
-    }
-    .com-list {
-        width: 450px;
-        top: 50%;
-        left: 25%;
-    }
-
-    /* gallery page */
-    .info-container {
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-    }
-    .text-box {
-        padding: 0;
-        margin: 0;
-    }
-    
-}
-
-/* media query for small tablets and larger mobile phones */
-@media (min-width: 480px) and (max-width: 899px) {
-     /* logo and navigation bar */
-    #logo-left {
-        font-size: 80%;
-    }
-
-    #nav-bar {
-        font-size: 70%;
-    }
-
-    #nav-bar a {
-        padding: 5px;
-    }
-
-    #logo-left,
-    #nav-bar {
-        line-height: 40px;
-    }
-
-    .logo-right img {
-        max-width: 90px;
-    }
-    /* hero section */
-    #hero-image {
-        height: 350px;
-    }
-
-    .hero-text h1 {
-        font-size: 60%;
-        letter-spacing: 2px;
-        line-height: 40px;
-    }
-    .hero-text {
-        margin: auto;
-    }
-     /* mid-page section */
-    .welcome-msg {
-        padding: 10px 0;
-        margin: 10px 0;
-    }
-     #box-one,
-     #box-two {
-         flex-direction: column;
-     }
-
-     .flex-box-text {
-         width: 90%;
-     }
-     /* our commitment section */
-     #com-container {
-         height: auto;
-     }
-      #com-container img {
-        margin-bottom: 30px;
-      }
-     .com-list {
-         all: unset;
-         text-align: center;
-     }
-      .com-list h3,
-      .com-list h4 {
-          font-size: 100%;
-          padding: 10px;
-      }
-      /* footer */
-      .flex-box {
-          flex-direction: column;
-      }
-
-      footer div {
-          margin: 15px 0;
-          text-align: center;
-      }
-      /* gallery page */
-      .info-container {
-          flex-direction: column;
-      }
-
-      .info-container div {
-        width: 90%;
-      }
-      /* contact page */
-      #top-container {
-        flex-direction: column;
-      }
-
-      #top-container img {
-          max-width: 80%;
-      }
-
-      #right-box {
-        width: 80%;
-        display: block;
-      }
-      #contact-container {
-          max-width: 80%;
-      }
-
-     
-    
-}
-
-/* media query for mobile phones with smaller screens */
-@media (min-width: 320px) and (max-width: 479px) {
-    html, body {
-        font-size: small;
-        overflow: hidden;
-    }
-    /* logo and navigation bar */
-    #nav-container {
-        flex-direction: column;
-    }
-
-    #logo-left {
-        font-size: 80%;
-    }
-
-    #nav-bar {
-        font-size: 80%;
-        margin: 10px 0;
-    }
-
-    #nav-bar a {
-        padding: 15px;
-    }
-
-    .logo-right img {
-        max-width: 90px;
-    }
-    #logo-left, #nav-bar {
-        line-height: 30px;
-    }
-    /* hero section */
-    #hero-image {
-        height: 210px;
-    }
-    .hero-text h1 {
-        font-size: 50%;
-        letter-spacing: 1.8px;
-        line-height: 20px;
-    }
-    .hero-text {
-        margin: auto;
-    }
-     /* mid-page section */
-     .welcome-msg {
-         font-size: 100%;
-         line-height: 20px;
-         padding: 10px 0;
-         margin: 10px 0;
-     }
-     .welcome-msg h3 {
-         padding: 5px;
-         margin: 5px;
-     }
-     .flex-box-text {
-         width: 90%;
-         margin: 10px;
-         padding: 10px;
-         line-height: 18px;
-     }
-      #box-one,
-      #box-two {
-          flex-direction: column;
-      }
-      /* our commitment section */
-      #com-container {
-          height: auto;
-      }
-      #com-container img {
-          margin-bottom: 30px;
-      }
-      .com-list {
-          all: unset;
-          width: 80%;
-          text-align: center;
-      }
-      .com-list h3,
-      .com-list h4 {
-          padding: 8px;
-          font-size: 90%;
-      }
-      /* footer */
-      .flex-box {
-          flex-direction: column;
-      }
-
-      footer div {
-        margin: 15px 0;
-        text-align: center;
-      }
-      footer {
-          margin: 20px 0;
-      }
-
-      /* gallery page */
-      .info-container {
-          flex-direction: column;
-      }
-
-      .info-container div {
-        width: 90%;
-      }
-      .text-box {
-          line-height: 20px;
-      }
-
-     /* contact page */
-     #top-container {
-         flex-direction: column;
-     }
-
-     #top-container img {
-         max-width: 80%;
-     }
-
-     #right-box {
-         width: 90%;
-         line-height: 15px;
-     }
-
-     #contact-container {
-         max-width: 80%;
-     }
-    
-      
-
-}
