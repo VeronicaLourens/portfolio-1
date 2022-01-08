@@ -40,7 +40,7 @@ The website is created based on the initial design on the large desktop size. Th
 
   * All three pages have the same logo and nativation menu on the top of the website. Logo "Super Cars" on the left, navigation links "Home, Our Stock and Contact" in the middle and the a graphic logo on the right.
 
-  * The navigation header clearly shows the user where to find the relevant information around the website. ![Header]('assets/images/header.avif')
+  * The navigation header clearly shows the user where to find the relevant information around the website. ![Header]('assets/images/header.png')
 
 ### Home Page
 
