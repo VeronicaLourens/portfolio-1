@@ -42,24 +42,24 @@ The website is created based on the initial design on the large desktop size. Th
 
   * The navigation header clearly shows the user where to find the relevant information around the website. 
   
-  ![Header](assets/images/header.avif)
+  ![Header](assets/images/header.jpg)
 
 ### Home Page
 It contains a hero image, descriptions “About Us” and “Our Missions”, following with a services commitments section “Our Commitments” to emphasis Super Cars company’s unique business scope and quality excellent service. This is very inviting and much enthusiasm with promises to gain the trust from the users coming forward to purchase luxurious cars.
 * Hero Section
 
-![Hero image](assets/images/hero.avif)
+![Hero image](assets/images/hero.jpg)
 
 * About Us and Out Missions
-![About us and our missions](assets/images/midpage.avif)
+![About us and our missions](assets/images/midpage.jpg)
 
 * Our Commitments
-![Our commitment](assets/images/comlst.avif)
+![Our commitment](assets/images/comlst.jpg)
 
 ### Footer
 All three pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
 
-![Footer](assets/images/footer.avif)
+![Footer](assets/images/footer.jpg)
 
 
 
