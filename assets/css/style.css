@@ -86,7 +86,7 @@ h1, h2, h3, h4, p {
 }
 
 #hero-image {
-    background: url("../images/lamwhitehero.avif") no-repeat center center;
+    background: url("../images/lamwhitehero.jpg") no-repeat center center;
     max-width: 100%;
     height: 900px;
     background-size: cover;
