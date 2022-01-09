@@ -31,7 +31,7 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 * The site offers many different contact methods for user to make contact in their preferable contact ways such as phone, email, web-form and other social media platforms.
 
 ## Color Schemes
-I used [Adobe Color](https://color.adobe.com/mythemes) and [EightShapes Contrast](https://contrast-grid.eightshapes.com/) to determine the primary color for the background and text on the website. 
+I used *Adobe Color* and *EightShapes Contrast*to determine the primary color for the background and text on the website. 
 
 ## Design / Existing Features
 The website is created based on the initial design on the large desktop size. Then add the media queries to make it responsive on different media screen sizes from 320px up to 2300px. All of pages are re-sized accordingly.
@@ -40,8 +40,25 @@ The website is created based on the initial design on the large desktop size. Th
 
   * All three pages have the same logo and nativation menu on the top of the website. Logo "Super Cars" on the left, navigation links "Home, Our Stock and Contact" in the middle and the a graphic logo on the right.
 
-  * The navigation header clearly shows the user where to find the relevant information around the website. ![Header]('assets/images/header.png')
+  * The navigation header clearly shows the user where to find the relevant information around the website. 
+  
+  ![Header](assets/images/header.avif)
 
 ### Home Page
+It contains a hero image, descriptions “About Us” and “Our Missions”, following with a services commitments section “Our Commitments” to emphasis Super Cars company’s unique business scope and quality excellent service. This is very inviting and much enthusiasm with promises to gain the trust from the users coming forward to purchase luxurious cars.
+* Hero Section
+
+![Hero image](assets/images/hero.avif)
+
+* About Us and Out Missions
+
+![About us and our missions](assets/images/midpage.avif)
+
+* Our Commitments
+![Our commitment](assets/images/comlst.avif)
+
+
+
+
 
 
