@@ -1,7 +1,7 @@
 # Super Cars
 
 ## Site Overview
-Super Cars is an imaginary luxurious car dealer selling premium Lamborghini and Bugatti luxurious cars. The website intends to target people who are interested in buying high speed top brand luxurious cars. The site offeres exclusive information about the company and a range of cars available to attract site visitors to purchase their dream car.
+Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bugatti luxurious cars. The website intends to target people who are interested in buying high speed top brand luxurious cars. The site offeres exclusive information about the company and a range of cars available to attract site visitors to purchase their dream car.
 
 ## Planning Stage
 Made a few sketches on the paper to put my ideas on display. Looked for some information about the Lamborghini and Bugatti cars online.
@@ -51,11 +51,15 @@ It contains a hero image, descriptions “About Us” and “Our Missions”, fo
 ![Hero image](assets/images/hero.avif)
 
 * About Us and Out Missions
-
 ![About us and our missions](assets/images/midpage.avif)
 
 * Our Commitments
 ![Our commitment](assets/images/comlst.avif)
+
+### Footer
+All three pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
+
+![Footer](assets/images/footer.avif)
 
 
 
