@@ -63,6 +63,5 @@ All three pages have the same footer at the bottom of the website that includes 
 
 
 
-
-
-
+## Deployment
+On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a link. Here is the live site URL - [Super Cars live websie](https://veronicalourens.github.io/supercars/)
