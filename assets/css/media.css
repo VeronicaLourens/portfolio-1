@@ -354,6 +354,14 @@
         line-height: 20px;
     }
 
+    #extra-text {
+        width: 80%;
+    }
+
+    #extra-text h3 {
+        font-size: 70%;
+    }
+
     /* contact page */
     #top-container {
         flex-direction: column;
@@ -365,7 +373,7 @@
 
     #right-box {
         width: 90%;
-        line-height: 15px;
+        line-height: 25px;
     }
 
     #contact-container {
