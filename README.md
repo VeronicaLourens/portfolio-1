@@ -5,6 +5,8 @@ Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bug
 
 ![Responsive site on different screens](assets/images/responsive.jpg)
 
+Here is the live site URL - [Super Cars live websie](https://veronicalourens.github.io/supercars/)
+
 ## Planning Stage
 Made a few sketches on the paper to put my ideas on display. Looked for some information about the Lamborghini and Bugatti cars online.
 
@@ -33,7 +35,12 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 * The site offers many different contact methods for user to make contact in their preferable contact ways such as phone, email, web-form and other social media platforms.
 
 ## Color Schemes
-I used *Adobe Color* and *EightShapes Contrast*to determine the primary color for the background and text on the website. 
+I used *Adobe Color* and *EightShapes Contrast* to determine the primary color for the background and text on the website. I select the black background for the website and white color for the text. 
+
+![Color theme](assets/images/colortheme.jpg)
+
+
+![Color contrast grid](assets/images/contrastgrid.jpg)
 
 ## Design / Existing Features
 The website is created based on the initial design on the large desktop size. Then add the media queries to make it responsive on different media screen sizes from 320px up to 2300px. All of pages are re-sized accordingly.
@@ -68,7 +75,7 @@ All three pages have the same footer at the bottom of the website that includes 
 
 
 ## Deployment
-On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a link. Here is the live site URL - [Super Cars live websie](https://veronicalourens.github.io/supercars/)
+On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a link. 
 
 ## Testing
 
