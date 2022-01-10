@@ -211,6 +211,10 @@
         width: 90%;
     }
 
+    .mid-box {
+        margin: 20px;
+    }
+
     /* contact page */
     #top-container {
         flex-direction: column;
@@ -350,6 +354,9 @@
 
     .info-container div {
         width: 90%;
+    }
+    .mid-box {
+        margin: 20px;
     }
 
     .text-box {
