@@ -248,12 +248,12 @@
     }
 
     #nav-bar {
-        font-size: 80%;
-        margin: 10px 0;
+        font-size: 85%;
+        margin: 15px 0;
     }
 
     #nav-bar a {
-        padding: 15px;
+        padding: 20px;
     }
 
     .logo-right img {
@@ -264,6 +264,9 @@
     #nav-bar {
         line-height: 30px;
     }
+    .logo-right {
+        margin-top: 10px;
+    }
 
     /* hero section */
     #hero-image {
@@ -273,7 +276,7 @@
     .hero-text h1 {
         font-size: 50%;
         letter-spacing: 1.8px;
-        line-height: 20px;
+        line-height: 30px;
     }
 
     .hero-text {
@@ -283,20 +286,20 @@
     /* mid-page section */
     .welcome-msg {
         font-size: 100%;
-        line-height: 20px;
-        padding: 10px 0;
+        line-height: 25px;
+        padding: 20px 0;
         margin: 10px 0;
     }
 
     .welcome-msg h3 {
-        padding: 5px;
-        margin: 5px;
+        padding: 8px;
+        margin: 8px;
     }
 
     .flex-box-text {
         width: 90%;
-        margin: 10px;
-        padding: 10px;
+        margin: 15px;
+        padding: 15px;
         line-height: 18px;
     }
 

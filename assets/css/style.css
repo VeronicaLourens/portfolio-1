@@ -54,7 +54,6 @@ h1, h2, h3, h4, p {
     color: inherit;
     text-decoration: none;
     letter-spacing: 2px;
-    padding: 20px;
 }
 
 #nav-bar li {
@@ -113,12 +112,16 @@ h1, h2, h3, h4, p {
     text-align: center;
     padding: 30px 0;
     margin: 20px 0;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .welcome-msg span {
     font-size: 150%;
     font-weight: bolder;
+}
+
+.welcome-msg h3 {
+    padding: 10px 0;
 }
 
 #mid-page-container {
@@ -146,7 +149,6 @@ h1, h2, h3, h4, p {
     padding: 20px;
     margin: 30px;
 }
-
 
 .flex-box-text h3 {
     text-align: center;
@@ -226,14 +228,14 @@ footer {
 
 .copy-right-box {
     text-align: center;
-    margin: 30px 0 20px 0;
+    margin: 20px 0;
 }
 
 .disclaimer-text {
     font-size: 15px;
     text-align: center;
     padding: 10px 0;
-    margin: 10px 0 20 0;
+    margin: 10px 15px 30px 15px;
 }
 
 /* gallery page */
