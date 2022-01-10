@@ -5,7 +5,7 @@ Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bug
 
 ![Responsive site on different screens](assets/images/responsive.jpg)
 
-Here is the live site URL - [Super Cars live websie](https://veronicalourens.github.io/supercars/)
+Click here to view the site - [Super Cars live website](https://veronicalourens.github.io/supercars/)
 
 ## Planning Stage
 Made a few sketches on the paper to put my ideas on display. Looked for some information about the Lamborghini and Bugatti cars online.
@@ -71,6 +71,16 @@ It contains a hero image, descriptions “About Us” and “Our Missions”, fo
 All three pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
 
 ![Footer](assets/images/footer.jpg)
+
+### Our Stock Page
+The page contains a brief description about the characters of Lamborghini Sian and Bugatti Chiron. There is a photo gallery with a huge collection of different model luxurious cars available in the Super Cars showroom. 
+
+![Gallery page](assets/images/gallerypg.jpg)
+
+### Contact Page
+The page contains an image and a description, a contact form with a selection list of cars for user to choose when making contact and send their interests and messages to Super Cars company. Users can easily contact or visit Super Cars company to view or test drive.
+
+![Contact page](assets/images/contactpg.jpg)
 
 
 
