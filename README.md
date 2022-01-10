@@ -15,7 +15,7 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 
 * As a returning user, I want the car dealer's website not only provide a collection of cars but also information about the range of services available for further visiting.
 
-* As a frequent user, I want to know more about cars' design and other features such as engine capacity etc. I also want to know what service packages are offered when buying cars.
+* As a frequent user, I want to know more about cars' design and other features. I also want to know what service packages are offered when buying cars.
 
 * As a frequent user, I want to know the contact details of Super cars company for viewing and test drive.
 
@@ -51,9 +51,11 @@ It contains a hero image, descriptions “About Us” and “Our Missions”, fo
 ![Hero image](assets/images/hero.jpg)
 
 * About Us and Out Missions
+
 ![About us and our missions](assets/images/midpage.jpg)
 
 * Our Commitments
+
 ![Our commitment](assets/images/comlst.jpg)
 
 ### Footer
@@ -65,3 +67,41 @@ All three pages have the same footer at the bottom of the website that includes 
 
 ## Deployment
 On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a link. Here is the live site URL - [Super Cars live websie](https://veronicalourens.github.io/supercars/)
+
+## Testing
+
+### Lighthouse Testing
+
+I tested the site using Lighthouse on devtools for both mobile and desktop. The final result shows here after taking the improvement steps. 
+
+![Lighthouse score](assets/images/lghthousescr.png)
+
+* Performance Scores
+
+  * The initial score was 73% on the home page, 87% on the gallery page and 92% on the contact page due to the render-blocking resources found such as cumulative layout shift, largest contentful paint, large size of images, large size of css file and images were not set an explicit width and height.
+
+  * To improve the performance score
+
+    I used the online free image compression tools to compress all the images in the image folder. First I converted the png format to avif format but it didn’t work well so that I converted the images to jpg format and replaced all images on three pages with compressed jpg images. I also created a new media css file and placed the media query css code to a separate media css file. Deleted  empty spaces both on html and css file. 
+
+* Accessibility Score
+
+  * The initial accessibility score was between 92% - 96% due to the background and foreground contrast ratio issues. The font size was set to less than 12px.  The heading element on the gallery page was not in sequentially descending order. 
+
+  * To improve the accessibility score
+
+    I changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color.  Increased the font-size on the media query styling to ensure the readability on small screens. I added an extra-text div with a h3 heading to the gallery page in order to make the headings in a good order. Adjusted the header element to avoid the elements overlapping on small screens. 
+
+* Best Practices Score
+
+  * The initial score was 98%. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
+
+* SEO Score
+
+  * SEO was initially 97% on all three pages due to the links weren’t working well. I corrected the typo on the  html file footer element for the social media links “noopenner” to “noopener”.
+
+
+
+
+
+
