@@ -236,7 +236,6 @@
     html,
     body {
         font-size: small;
-        overflow: hidden;
     }
 
     /* logo and navigation bar */
