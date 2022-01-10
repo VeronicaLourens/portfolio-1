@@ -24,7 +24,7 @@ It contains a hero image, descriptions “About Us” and “Our Missions”, fo
 
 ![Hero image](assets/images/hero.jpg)
 
-* About Us and Out Missions
+* About Us and Our Missions
 
 ![About us and our missions](assets/images/midpage.jpg)
 
@@ -50,7 +50,7 @@ The page contains an image and a description, a contact form with a selection li
 ## Planning Stage
 Made a few sketches on the paper to put my ideas on display. Looked for some information about the Lamborghini and Bugatti cars online.
 
-## User Story
+### User Story
 * As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
 
 * As a first time user, I want to easily navigate around the page for getting to know what the site is about.
@@ -63,7 +63,7 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 
 * As a frequent user, I want to know the contact details of Super cars company for viewing and test drive.
 
-## Site Owner Story
+### Site Owner Story
 * To target the luxurious car buyers, the website must be responsive on different media screen sizes.
 
 * The site shoud have a great collection of high quality photos of premiium cars with different nodels to attact site users to return.
@@ -74,7 +74,7 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 
 * The site offers many different contact methods for user to make contact in their preferable contact ways such as phone, email, web-form and other social media platforms.
 
-## Color Schemes
+### Color Schemes
 I used *Adobe Color* and *EightShapes Contrast* to determine the primary color for the background and text on the website. I select the black background for the website and white color for the text. 
 
 ![Color theme](assets/images/colortheme.jpg)
@@ -121,6 +121,9 @@ I tested the site using Lighthouse on devtools for both mobile and desktop. The 
 
 ### Testing on screens
 I tested that the website is fully responsive on desktop, laptop, iPad and mobile phone. Initially, it worked well on the desktop, laptop and iPad. However, it only displayed the top parts of the site on my phone due to the site couldn't be scrolled down to see the rest of the site. I assumed that the rest of the site was blocked for whatever reason. It did work on landscape mode on my phone when I turned my phone sideways. With tutor’s help, it worked out well in the end.
+
+### Testing on the browers
+I have tested that the website is accessible on different browsers. It works perfect on Chrome, Edge, Safari and Firefox. The website is fully responsive. The website looks great on different browsers when opening the website. It also loads fast on different browers.
 
 
 
