@@ -116,12 +116,13 @@ h1, h2, h3, h4, p {
 }
 
 .welcome-msg span {
-    font-size: 150%;
+    font-size: 140%;
     font-weight: bolder;
 }
 
 .welcome-msg h3 {
     padding: 10px 0;
+    margin: 10px 0;
 }
 
 #mid-page-container {

@@ -253,7 +253,7 @@
     }
 
     #nav-bar a {
-        padding: 20px;
+        padding: 10px;
     }
 
     .logo-right img {
@@ -300,7 +300,7 @@
         width: 90%;
         margin: 15px;
         padding: 15px;
-        line-height: 18px;
+        line-height: 20px;
     }
 
     #box-one,
@@ -375,7 +375,7 @@
 
     #right-box {
         width: 90%;
-        line-height: 25px;
+        line-height: 20px;
     }
 
     #contact-container {
