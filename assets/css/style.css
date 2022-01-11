@@ -183,7 +183,7 @@ h1, h2, h3, h4, p {
 }
 
 #com-container img {
-    max-width: 100vw;
+    max-width: 100%;
 }
 
 .com-list {
@@ -270,7 +270,9 @@ footer {
     padding: 10px;
     margin: 10px;
 }
-.info-container img {
+
+.mid-box img {
+    width: 100%;
     border-radius: 50%;
     border: 3px solid #1884F0;
 }
