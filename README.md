@@ -97,7 +97,6 @@ I used *Adobe Color* and *EightShapes Contrast* to determine the primary color f
 ![Color contrast grid](assets/images/contrastgrid.jpg)
 
 
-
 ## Deployment
 On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a link. 
 
@@ -211,6 +210,14 @@ I have tested that the Super Cars website is accessible on different browsers. I
 * Stack Overflow - provide extra support information.
 
 * W3C School - extra learning materials.
+
+## Limitation and Unfixed Bug
+
+* The contact details on the page such as address, phone number and email address cannot be actually used due to they are created only for display purpose with no actual functions.
+
+* The contact form on the Contact page cannot be stored any data and sent actual messages because there is no actual functionality of the form. The form attributes are deleted in HTML file to avoid any error.
+
+* There is a known and unfixed bug on the home page index.html at line 46. I understood that h1 heading should be used in the future projects.
 
 
 
