@@ -158,6 +158,49 @@ I have tested that the Super Cars website is accessible on different browsers. I
   * Contact Page
   ![Contact page](assets/images/w3ccontact.jpg)
 
+## Technoligies Used
+
+* HTML5 - for creating Super Cars website structure with text and images.
+
+* CSS - for styling the website content.
+
+## Tools Used
+
+* GitHub - host and deploy the website with its content.
+
+* GitPod - for editing the code and pushing the code to GitHub.
+
+* Font Awesome - provides the icons used on the website.
+
+* Google Fonts - provides the fonts for the website.
+
+* W3C Markup Validatior - validate website's HTML code.
+
+* W3C CSS Jigsaw Validatior - validate website's CSS code.
+
+* Chrome Dev Tools - test the code and site responsiveness.
+
+* Adobe Color - extract the site's color theme.
+
+* EightShape Contrast - auto-make color contrast grid.
+
+* Squoosh & Compressor - compress and convert the site's images.
+
+* Amiresponsive - generate site's responsiveness on different screens.
+
+* Slack - get support for the course and the project.
+
+* Unsplash - download all the images.
+
+* Stack Overflow - provide extra support information.
+
+* W3C School - extra learning materials.
+
+
+
+
+
+
 
 
 
