@@ -238,10 +238,11 @@ h1, h2, h3, h4, p {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 20px;
 }
 
 .copy-right-box {
+    
     text-align: center;
     margin: 20px 0;
 }
@@ -249,8 +250,8 @@ footer {
 .disclaimer-text {
     font-size: 15px;
     text-align: center;
-    padding: 10px 0;
-    margin: 10px 15px 30px 15px;
+    padding: 10px 50px;
+    margin: 10px 20px 30px 20px;
 }
 
 /* gallery page */
