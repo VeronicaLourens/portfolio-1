@@ -50,6 +50,20 @@ The page contains an image and a description, a contact form with a selection li
 ## Planning Stage
 Made a few sketches on the paper to put my ideas on display. Looked for some information about the Lamborghini and Bugatti cars online.
 
+### Initial Sketches
+
+* Home Page 
+
+![Home page drawing](assets/images/drawing1)
+
+* Our Stock Page
+
+![Our stock drawing](assets/images/drawing2)
+
+* Contact Page
+
+![Contact page drawing](assets/images/drawing3)
+
 ### User Story
 * As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
 
@@ -192,9 +206,12 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * Unsplash - download all the images.
 
+* Google.com - provide certain text content.
+
 * Stack Overflow - provide extra support information.
 
 * W3C School - extra learning materials.
+
 
 
 
