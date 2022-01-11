@@ -54,15 +54,15 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 
 * Home Page 
 
-![Home page drawing](assets/images/drawing1)
+![Home page drawing](assets/images/drawing1.jpg)
 
 * Our Stock Page
 
-![Our stock drawing](assets/images/drawing2)
+![Our stock drawing](assets/images/drawing2.jpg)
 
 * Contact Page
 
-![Contact page drawing](assets/images/drawing3)
+![Contact page drawing](assets/images/drawing3.jpg)
 
 ### User Story
 * As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
