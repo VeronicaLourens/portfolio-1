@@ -339,6 +339,12 @@ footer {
     letter-spacing: 2px;
 }
 
+#right-box h2,
+#right-box h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
 #contact-container {
     max-width: 50%;
     padding: 20px;
