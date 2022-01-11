@@ -128,23 +128,35 @@ I tested the website on Chrome Incognito window using Lighthouse on dev tools fo
 ### Testing on screens
 I tested that the website is fully responsive on desktop, laptop, iPad and mobile phone. Initially, it worked well on the desktop, laptop and iPad. However, it only displayed the top parts of the site on my phone due to the site couldn't be scrolled down to see the rest of the site. I assumed that the rest of the site was blocked for whatever reason. It did work on landscape mode on my phone when I turned my phone sideways. With tutor’s help, it worked out well in the end.
 
-### Testing on the browers
+### Testing on the browsers
 I have tested that the Super Cars website is accessible on different browsers. It works well on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. The website is fully responsive on devices with different screen sizes while using different browsers. The Super Cars website loads fast on different browers.
 
-### Code Validation Testing
+### Code Validation
 
-All the code for the website are validated on the W3C HTML markup validation and CSS validation by entering the Super Cars' URL. 
+* Initial Result
 
-* W3C HTML Validation
-  There were two errors and one warning found.
+  All the code for the website are validated on the W3C HTML markup validation and CSS validation by entering the Super Cars' URL. 
+
+  * W3C HTML Validation - Two errors and one warning found.
 
   ![W3C HTML validation result](assets/images/w3check.jpg)
 
-* W3C CSS Validation
-  No errors found.
+  * W3C CSS Validation - No errors found.
 
   ![W3C CSS validation result](assets/images/w3cCSS.jpg)
 
+* Final Result
+
+  After updateing the HTML and CSS code to fix the issues.
+
+  * Home Page
+  ![Home page](assets/images/w3chome.jpg)
+
+  * Our Stock Page
+  ![Our stock page](assets/images/w3cgallery.jpg)
+
+  * Contact Page
+  ![Contact page](assets/images/w3ccontact.jpg)
 
 
 
