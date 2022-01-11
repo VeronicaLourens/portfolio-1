@@ -91,9 +91,15 @@ On the GitHub page, I go to the supercars repository,then go to the tab of "sett
 
 ### Lighthouse Testing
 
-I tested the site using Lighthouse on devtools for both mobile and desktop. The final result shows here after taking the improvement steps. 
+I tested the website on Chrome Incognito window using Lighthouse on dev tools for both mobile and desktop. The final result shows here after taking the improvement steps. 
 
-![Lighthouse score](assets/images/lghthousescr.png)
+* Desktop
+
+![Result for the desktop](assets/images/lghthousescr.png)
+
+* Mobile
+
+![Result for the mobile](assets/images/lghthousescr1.jpg)
 
 * Performance Scores
 
