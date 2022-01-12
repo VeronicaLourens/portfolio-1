@@ -22,7 +22,7 @@
         height: 750px;
     }
 
-    .hero-text h1 {
+    .hero-text h2 {
         font-size: 160%;
     }
 
@@ -73,7 +73,7 @@
         height: 500px;
     }
 
-    .hero-text h1 {
+    .hero-text h2 {
         font-size: 100%;
         line-height: 70px;
     }
@@ -147,7 +147,7 @@
         height: 350px;
     }
 
-    .hero-text h1 {
+    .hero-text h2 {
         font-size: 60%;
         letter-spacing: 2px;
         line-height: 40px;
@@ -294,7 +294,7 @@
         height: 200px;
     }
 
-    .hero-text h1 {
+    .hero-text h2 {
         font-size: 50%;
         letter-spacing: 1.8px;
         line-height: 30px;
