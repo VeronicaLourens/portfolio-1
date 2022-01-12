@@ -5,7 +5,9 @@ Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bug
 
 ![Responsive site on different screens](assets/images/responsive.jpg)
 
-Click here to view the site - [Super Cars live website](https://veronicalourens.github.io/supercars/)
+
+Click here to view the live website - [Super Cars](https://veronicalourens.github.io/supercars/)
+
 
 ## Design / Existing Features
 The website is created based on the initial design on the large desktop size. Then add the media queries to make it responsive on different media screen sizes from 320px up to 2300px. All of pages are re-sized accordingly.
@@ -24,11 +26,11 @@ It contains a hero image, descriptions “About Us” and “Our Missions”, fo
 
 ![Hero image](assets/images/hero.jpg)
 
-* About Us and Our Missions
+* About Us and Our Mission
 
 ![About us and our missions](assets/images/midpage.jpg)
 
-* Our Commitments
+* Our Commitment
 
 ![Our commitment](assets/images/comlst.jpg)
 
@@ -54,15 +56,15 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 
 * Home Page 
 
-![Home page drawing](assets/images/drawing1.jpg)
+    ![Home page drawing](assets/images/drawing1.jpg)
 
 * Our Stock Page
 
-![Our stock drawing](assets/images/drawing2.jpg)
+  ![Our stock drawing](assets/images/drawing2.jpg)
 
 * Contact Page
 
-![Contact page drawing](assets/images/drawing3.jpg)
+  ![Contact page drawing](assets/images/drawing3.jpg)
 
 ### User Story
 * As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
@@ -108,11 +110,11 @@ I tested the website on Chrome Incognito window using Lighthouse on dev tools fo
 
 * Desktop
 
-![Result for the desktop](assets/images/lghthousescr.png)
+  ![Result for the desktop](assets/images/lghthousescr.jpg)
 
 * Mobile
 
-![Result for the mobile](assets/images/lghthousescr1.jpg)
+  ![Result for the mobile](assets/images/lghthousescr1.jpg)
 
 * Performance Scores
 
@@ -136,7 +138,7 @@ I tested the website on Chrome Incognito window using Lighthouse on dev tools fo
 
 * SEO Score
 
-  * SEO was initially 97% on all three pages due to the links weren’t working well. I corrected the typo on the  html file footer element for the social media links “noopenner” to “noopener”.
+  * SEO was initially 97% on all three pages due to the typo on the HTML footer element. I corrected the typo on the social media links “noopenner” to “noopener”. The score was improved to 100%.
 
 ### Testing on screens
 I tested that the website is fully responsive on desktop, laptop, iPad and mobile phone. Initially, it worked well on the desktop, laptop and iPad. However, it only displayed the top parts of the site on my phone due to the site couldn't be scrolled down to see the rest of the site. I assumed that the rest of the site was blocked for whatever reason. It did work on landscape mode on my phone when I turned my phone sideways. With tutor’s help, it worked out well in the end.
@@ -152,11 +154,11 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
   * W3C HTML Validation - Two errors and one warning found.
 
-  ![W3C HTML validation result](assets/images/w3check.jpg)
+    ![W3C HTML validation result](assets/images/w3check.jpg)
 
   * W3C CSS Validation - No errors found.
 
-  ![W3C CSS validation result](assets/images/w3cCSS.jpg)
+    ![W3C CSS validation result](assets/images/w3cCSS.jpg)
 
 * Final Result
 
@@ -182,45 +184,63 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 ## Tools Used
 
-* GitHub - host and deploy the website with its content.
+* [GitHub]() - host and deploy the website with its content.
 
-* GitPod - for editing the code and pushing the code to GitHub.
+* [GitPod]() - for editing the code and pushing the code to GitHub.
 
-* Font Awesome - provides the icons used on the website.
+* [Font Awesome]() - provides the icons used on the website.
 
-* Google Fonts - provides the fonts for the website.
+* [Google Fonts]() - provides the fonts for the website.
 
-* W3C Markup Validatior - validate website's HTML code.
+* [W3C Markup Validatior]() - validate website's HTML code.
 
-* W3C CSS Jigsaw Validatior - validate website's CSS code.
+* [W3C CSS Jigsaw Validatior]() - validate website's CSS code.
 
-* Chrome Dev Tools - test the code and site responsiveness.
+* [Chrome Dev Tools]() - test the code and site responsiveness.
 
-* Adobe Color - extract the site's color theme.
+* [Adobe Color]() - extract the site's color theme.
 
-* EightShape Contrast - auto-make color contrast grid.
+* [EightShape Contrast]() - auto-make color contrast grid.
 
-* Squoosh & Compressor - compress and convert the site's images.
+* [Squoosh]() & [Compressor]() - compress and convert the site's images.
 
-* Amiresponsive - generate site's responsiveness on different screens.
+* [Amiresponsive]() - generate site's responsiveness on different screens.
 
-* Slack - get support for the course and the project.
+* [Slack]() - get support for the course and the project.
 
-* Unsplash - download all the images.
+* [Unsplash]() - download all the images.
 
-* Google.com - provide certain text content.
+* [Google.com]() - provide certain text content.
 
-* Stack Overflow - provide extra support information.
+* [Stack Overflow]() - provide extra support information.
 
-* W3C School - extra learning materials.
+* [W3C School]() - extra learning materials.
 
-## Limitation and Unfixed Bug
+* [Youtube]() - for learning css flexbox.
+
+* [MDN Web Docs]() - provide reference materials.
+
+## Limitation
 
 * The contact details on the page such as address, phone number and email address cannot be actually used due to they are created only for display purpose with no actual functions.
 
 * The contact form on the Contact page cannot be stored any data and sent actual messages because there is no actual functionality of the form. The form attributes are deleted in HTML file to avoid any error.
 
-* There is a known and unfixed bug on the home page index.html at line 46. I understood that h1 heading should be used in the future projects.
+* There might be minor issues regarding English grammer or typo on the content of the website.
+
+## Credit & Acknowledgement
+
+* Whilst I have tried to deviate as much as possible, there might be some similarities in the code as the Super Cars project was influenced by the code along Love Running project at [Code Institute]().
+
+* I relied upon the support from Code Institue [tutors]() and mentor [Precious Ijege](), Slack community and my families. Thanks to all those who support my learning journey. I use W3schools, MDN web docs and stack overflow for general references throughout the project.
+
+* The Super Cars website is intended for education purpose of completing the Portfolio Project 1 at [Code Institue]() Diploma of Full Stack Software Development course.
+
+
+
+
+
+
 
 
 
