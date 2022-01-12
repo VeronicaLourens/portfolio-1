@@ -1,5 +1,20 @@
+# Super Cars
+
+## Site Overview
+Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bugatti luxurious cars. The website intends to target people who are interested in buying high speed top brand luxurious cars. The site offeres exclusive information about the company and a range of cars available to attract site visitors to purchase their dream car.
+
+
+![Responsive site on different screens](assets/images/responsive.jpg)
+
+
+Click here to view the live website - [Super Cars](https://veronicalourens.github.io/supercars/)
+
+
+## Table of Content
+
 - [Super Cars](#super-cars)
   - [Site Overview](#site-overview)
+  - [Table of Content](#table-of-content)
   - [Design / Existing Features](#design--existing-features)
     - [Navigation Header](#navigation-header)
     - [Home Page](#home-page)
@@ -22,16 +37,6 @@
   - [Limitation](#limitation)
   - [Credit & Acknowledgement](#credit--acknowledgement)
 
-# Super Cars
-
-## Site Overview
-Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bugatti luxurious cars. The website intends to target people who are interested in buying high speed top brand luxurious cars. The site offeres exclusive information about the company and a range of cars available to attract site visitors to purchase their dream car.
-
-
-![Responsive site on different screens](assets/images/responsive.jpg)
-
-
-Click here to view the live website - [Super Cars](https://veronicalourens.github.io/supercars/)
 
 
 ## Design / Existing Features
@@ -94,6 +99,10 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 * Contact Page
 
   ![Contact page drawing](assets/images/drawing3.jpg)
+
+
+[Back to Top](#super-cars)
+
 
 ### User Story
 * As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
@@ -215,6 +224,9 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
       ![Contact page](assets/images/w3ccontact.jpg)
 
+[Back to Top](#super-cars)
+
+
 ## Technologies Used
 
 * HTML5 - for creating Super Cars website structure with text and images.
@@ -258,6 +270,7 @@ I have tested that the Super Cars website is accessible on different browsers. I
 * [Youtube]() - for learning css flexbox.
 
 * [MDN Web Docs]() - provide reference materials.
+  
 
 [Back to Top](#super-cars)
 
