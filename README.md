@@ -1,3 +1,27 @@
+- [Super Cars](#super-cars)
+  - [Site Overview](#site-overview)
+  - [Design / Existing Features](#design--existing-features)
+    - [Navigation Header](#navigation-header)
+    - [Home Page](#home-page)
+    - [Footer](#footer)
+    - [Our Stock Page](#our-stock-page)
+    - [Contact Page](#contact-page)
+  - [Planning Stage](#planning-stage)
+    - [Initial Sketches](#initial-sketches)
+    - [User Story](#user-story)
+    - [Site Owner Story](#site-owner-story)
+    - [Color Schemes](#color-schemes)
+  - [Deployment](#deployment)
+  - [Testing](#testing)
+    - [Lighthouse Testing](#lighthouse-testing)
+    - [Testing on screens](#testing-on-screens)
+    - [Testing on the browsers](#testing-on-the-browsers)
+    - [Code Validation](#code-validation)
+  - [Technologies Used](#technologies-used)
+  - [Tools Used](#tools-used)
+  - [Limitation](#limitation)
+  - [Credit & Acknowledgement](#credit--acknowledgement)
+
 # Super Cars
 
 ## Site Overview
@@ -100,13 +124,13 @@ I used *Adobe Color* and *EightShapes Contrast* to determine the primary color f
 
 
 ## Deployment
-On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a link. 
+On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a URL link of [Super Cars](https://veronicalourens.github.io/supercars/).
 
 ## Testing
 
 ### Lighthouse Testing
 
-I tested the website on Chrome Incognito window using Lighthouse on dev tools for both mobile and desktop. The final result shows here after taking the improvement steps. 
+I tested the website on Chrome Incognito window using Lighthouse on dev tools for both mobile and desktop. The final results are showed as following after taking the improvement steps. 
 
 * Desktop
 
@@ -116,9 +140,9 @@ I tested the website on Chrome Incognito window using Lighthouse on dev tools fo
 
   ![Result for the mobile](assets/images/lghthousescr1.jpg)
 
-* Performance Scores
+* Performance Score
 
-  * The initial score was 73% on the home page, 87% on the gallery page and 92% on the contact page due to the render-blocking resources found such as cumulative layout shift, largest contentful paint, large size of images, large size of css file and images were not set an explicit width and height.
+  * The initial scores were 73% on the home page, 87% on the gallery page and 92% on the contact page due to the render-blocking resources found such as cumulative layout shift, largest contentful paint, large size of images, large size of css file and images were not set an explicit width and height.
 
   * To improve the performance score
 
@@ -126,15 +150,15 @@ I tested the website on Chrome Incognito window using Lighthouse on dev tools fo
 
 * Accessibility Score
 
-  * The initial accessibility score was between 92% - 96% due to the background and foreground contrast ratio issues. The font size was set to less than 12px.  The heading element on the gallery page was not in sequentially descending order. 
+  * The initial accessibility scores were between 92% - 96% due to the background and foreground contrast ratio issues. The font size was set to less than 12px.  The heading element on the gallery page was not in sequentially descending order. 
 
   * To improve the accessibility score
 
-    I changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color.  Increased the font-size on the media query styling to ensure the readability on small screens. I added an extra-text div with a h3 heading to the gallery page in order to make the headings in a good order. Adjusted the header element to avoid the elements overlapping on small screens. 
+    I changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color.  Increased the font-size on the media query styling to ensure the readability on small screens. I added an section with a h3 heading to the gallery page in order to make the headings in a sequentially descending order. Adjusted the header element to avoid the elements overlapping on small screens. 
 
 * Best Practices Score
 
-  * The initial score was 98%. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
+  * The initial score was 98% for all of the three pages. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
 
 * SEO Score
 
@@ -150,7 +174,7 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * Initial Result
 
-  All the code for the website are validated on the W3C HTML markup validation and CSS validation by entering the Super Cars' URL. 
+  All the codes for the Super Cars website are validated on the W3C HTML markup validation and CSS validation by entering the Super Cars' URL. 
 
   * W3C HTML Validation - Two errors and one warning found.
 
@@ -176,7 +200,7 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
       ![Contact page](assets/images/w3ccontact.jpg)
 
-## Technoligies Used
+## Technologies Used
 
 * HTML5 - for creating Super Cars website structure with text and images.
 
@@ -204,7 +228,7 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * [Squoosh]() & [Compressor]() - compress and convert the site's images.
 
-* [Amiresponsive]() - generate site's responsiveness on different screens.
+* [Am I Responsive]() - generate site's responsiveness on different screens.
 
 * [Slack]() - get support for the course and the project.
 
