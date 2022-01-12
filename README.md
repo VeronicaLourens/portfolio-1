@@ -234,7 +234,7 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * I relied upon the support from Code Institue [tutors]() and mentor [Precious Ijege](), Slack community and my families. Thanks to all those who support my learning journey. I use W3schools, MDN web docs and stack overflow for general references throughout the project.
 
-* The Super Cars website is intended for education purpose of completing the Portfolio Project 1 at [Code Institue]() Diploma of Full Stack Software Development course.
+* The [Super Cars](https://veronicalourens.github.io/supercars/) website is intended for education purpose of completing the Portfolio Project 1 at [Code Institue]() Diploma of Full Stack Software Development course.
 
 
 
