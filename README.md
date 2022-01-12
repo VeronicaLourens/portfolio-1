@@ -27,6 +27,7 @@
 ## Site Overview
 Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bugatti luxurious cars. The website intends to target people who are interested in buying high speed top brand luxurious cars. The site offeres exclusive information about the company and a range of cars available to attract site visitors to purchase their dream car.
 
+
 ![Responsive site on different screens](assets/images/responsive.jpg)
 
 
@@ -73,6 +74,10 @@ The page contains an image and a description, a contact form with a selection li
 
 ![Contact page](assets/images/contactpg.jpg)
 
+
+[Back to Top](#super-cars)
+
+
 ## Planning Stage
 Made a few sketches on the paper to put my ideas on display. Looked for some information about the Lamborghini and Bugatti cars online.
 
@@ -114,17 +119,24 @@ Made a few sketches on the paper to put my ideas on display. Looked for some inf
 
 * The site offers many different contact methods for user to make contact in their preferable contact ways such as phone, email, web-form and other social media platforms.
 
+
+[Back to Top](#super-cars)
+
+
 ### Color Schemes
 I used *Adobe Color* and *EightShapes Contrast* to determine the primary color for the background and text on the website. I select the black background for the website and white color for the text. 
 
-![Color theme](assets/images/colortheme.jpg)
+  ![Color theme](assets/images/colortheme.jpg)
 
 
-![Color contrast grid](assets/images/contrastgrid.jpg)
+  ![Color contrast grid](assets/images/contrastgrid.jpg)
 
 
 ## Deployment
-On the GitHub page, I go to the supercars repository,then go to the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a URL link of [Super Cars](https://veronicalourens.github.io/supercars/).
+On the GitHub page, I go to the supercars repository, then click the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a URL link of [Super Cars](https://veronicalourens.github.io/supercars/)
+
+[Back to Top](#super-cars)
+
 
 ## Testing
 
@@ -163,6 +175,9 @@ I tested the website on Chrome Incognito window using Lighthouse on dev tools fo
 * SEO Score
 
   * SEO was initially 97% on all three pages due to the typo on the HTML footer element. I corrected the typo on the social media links “noopenner” to “noopener”. The score was improved to 100%.
+
+[Back to Top](#super-cars)
+
 
 ### Testing on screens
 I tested that the website is fully responsive on desktop, laptop, iPad and mobile phone. Initially, it worked well on the desktop, laptop and iPad. However, it only displayed the top parts of the site on my phone due to the site couldn't be scrolled down to see the rest of the site. I assumed that the rest of the site was blocked for whatever reason. It did work on landscape mode on my phone when I turned my phone sideways. With tutor’s help, it worked out well in the end.
@@ -244,6 +259,9 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * [MDN Web Docs]() - provide reference materials.
 
+[Back to Top](#super-cars)
+
+
 ## Limitation
 
 * The contact details on the page such as address, phone number and email address cannot be actually used due to they are created only for display purpose with no actual functions.
@@ -256,25 +274,8 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * Whilst I have tried to deviate as much as possible, there might be some similarities in the code as the Super Cars project was influenced by the code along Love Running project at [Code Institute]().
 
-* I relied upon the support from Code Institue [tutors]() and mentor [Precious Ijege](), Slack community and my families. Thanks to all those who support my learning journey. I use W3schools, MDN web docs and stack overflow for general references throughout the project.
+* I relied upon the support from Code Institue [Tutors]() and mentor [Precious Ijege](), Slack community and my families. Thanks to all those who support my learning journey. I use W3schools, MDN web docs and stack overflow for general references throughout the project.
 
 * The [Super Cars](https://veronicalourens.github.io/supercars/) website is intended for education purpose of completing the Portfolio Project 1 at [Code Institue]() Diploma of Full Stack Software Development course.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Back to Top](#super-cars)
