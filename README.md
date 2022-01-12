@@ -160,16 +160,19 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * Final Result
 
-  After updateing the HTML and CSS code to fix the issues.
+  After updateing the HTML and CSS code to fix the issues. No errors were found on all of the three pages.
 
   * Home Page
-  ![Home page](assets/images/w3chome.jpg)
+
+      ![Home page](assets/images/w3chome.jpg)
 
   * Our Stock Page
-  ![Our stock page](assets/images/w3cgallery.jpg)
+
+      ![Our stock page](assets/images/w3cgallery.jpg)
 
   * Contact Page
-  ![Contact page](assets/images/w3ccontact.jpg)
+
+      ![Contact page](assets/images/w3ccontact.jpg)
 
 ## Technoligies Used
 
