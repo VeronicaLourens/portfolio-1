@@ -83,6 +83,11 @@
     }
 
     /* mid-page section */
+    .welcome-msg h3 {
+        padding: 8px;
+        margin: 8px;
+    }
+
     #box-one,
     #box-two {
         width: 90%;
@@ -113,6 +118,11 @@
     .text-box {
         padding: 0;
         margin: 0;
+    }
+
+    /* contact page */
+    #contact-container {
+        margin: 10px auto;
     }
 
 }
@@ -164,6 +174,7 @@
     }
 
     .welcome-msg {
+        font-size: 90%;
         padding: 20px 0 0 0;
         margin: 10px 0 0 0;
         line-height: 28px;
@@ -176,6 +187,7 @@
 
     .flex-box-text {
         width: 90%;
+        margin: 15px;
     }
 
     .leftside-text {
@@ -248,6 +260,7 @@
 
     #contact-container {
         max-width: 80%;
+        margin: 10px auto;
     }
 }
 
@@ -262,6 +275,7 @@
     /* logo and navigation bar */
     #nav-container {
         flex-direction: column;
+        padding: 15px;
     }
 
     #logo-left {
@@ -270,7 +284,7 @@
 
     #nav-bar {
         font-size: 85%;
-        margin: 15px 0;
+        margin: 12px 0;
         display: inline-block;
     }
 
@@ -384,6 +398,8 @@
 
     .text-box {
         line-height: 20px;
+        padding: 5px;
+        margin: 5px;
     }
 
     #extra-text {
@@ -406,10 +422,23 @@
     #right-box {
         width: 90%;
         line-height: 20px;
+        padding: 10px;
+    }
+
+    #right-box h2,
+    #right-box h3 {
+        font-size: 95%;
     }
 
     #contact-container {
         max-width: 80%;
+        margin: 10px auto;
+    }
+
+    .contact-form button {
+        width: 90px;
+        padding: 10px;
+        font-size: 15px;
     }
 
 }

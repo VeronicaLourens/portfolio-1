@@ -40,7 +40,7 @@ Click here to view the live website - [Super Cars](https://veronicalourens.githu
 
 
 ## Design / Existing Features
-The website is created based on the initial design on the large desktop size. Then add the media queries to make it responsive on different media screen sizes from 320px up to 2300px. All of pages are re-sized accordingly.
+The website is created based on the initial design on the large desktop size. Then add the media queries to make it responsive on different media screen sizes from 320px up to 1920px. All of pages are re-sized accordingly.
 
 ### Navigation Header
 
@@ -189,7 +189,7 @@ I tested the website on Chrome Incognito window using Lighthouse on dev tools fo
 
 
 ### Testing on screens
-I tested that the website is fully responsive on desktop, laptop, iPad and mobile phone. Initially, it worked well on the desktop, laptop and iPad. However, it only displayed the top parts of the site on my phone due to the site couldn't be scrolled down to see the rest of the site. I assumed that the rest of the site was blocked for whatever reason. It did work on landscape mode on my phone when I turned my phone sideways. With tutor’s help, it worked out well in the end.
+I tested that the website is fully responsive on desktop, laptop, iPad and mobile phone. Initially, it worked well on the desktop, laptop and iPad. However, it only displayed the top parts of the site on my phone due to the site couldn't be scrolled down to see the rest of the site. I assumed that the rest of the site was blocked for whatever reason. It did work on landscape mode on my phone when I turned my phone sideways. It works well after ajusting the CSS code. 
 
 ### Testing on the browsers
 I have tested that the Super Cars website is accessible on different browsers. It works well on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. The website is fully responsive on devices with different screen sizes while using different browsers. The Super Cars website loads fast on different browers.
@@ -289,6 +289,6 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
 * I relied upon the support from Code Institue [Tutors]() and mentor [Precious Ijege](), Slack community and my families. Thanks to all those who support my learning journey. I use W3schools, MDN web docs and stack overflow for general references throughout the project.
 
-* The [Super Cars](https://veronicalourens.github.io/supercars/) website is intended for education purpose of completing the Portfolio Project 1 at [Code Institue]() Diploma of Full Stack Software Development course.
+* The [Super Cars](https://veronicalourens.github.io/supercars/) website is intended for education purpose of completing the Portfolio Project 1 for the Diploma of Full Stack Software Development course at [Code Institue](). 
 
 [Back to Top](#super-cars)
