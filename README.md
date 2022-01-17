@@ -12,9 +12,6 @@ Click here to view the live website - [Super Cars](https://veronicalourens.githu
 
 ## Table of Content
 
-- [Super Cars](#super-cars)
-  - [Site Overview](#site-overview)
-  - [Table of Content](#table-of-content)
   - [Design / Existing Features](#design--existing-features)
     - [Navigation Header](#navigation-header)
     - [Home Page](#home-page)
@@ -37,10 +34,69 @@ Click here to view the live website - [Super Cars](https://veronicalourens.githu
   - [Limitation](#limitation)
   - [Credit & Acknowledgement](#credit--acknowledgement)
 
+## User Experience UX
+
+### User Stories
+* As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
+
+* As a first time user, I want to easily navigate around the page for getting to know what the site is about.
+
+* As a returning user, the name of website should be easy to type and remember. The images need to be high quality and the text should be easy to read.
+
+* As a returning user, I want the car dealer's website not only provide a collection of cars but also information about the range of services available for further visiting.
+
+* As a frequent user, I want to know more about cars' design and other features. I also want to know what service packages are offered when buying cars.
+
+* As a frequent user, I want to know the contact details of Super cars company for viewing and test drive.
+
+### Site Owner Stories
+* To target the luxurious car buyers, the website must be responsive on different media screen sizes.
+
+* The site shoud have a great collection of high quality photos of premiium cars with different nodels to attact site users to return.
+
+* The content on the website should be easy to load and offer an easy way to navigate around the site where users can easily find a huge range of cars.
+
+* The site uses top quality photos and short description to present the simple yet attactive inviting messages.
+
+* The site offers many different contact methods for user to make contact in their preferable contact ways such as phone, email, web-form and other social media platforms.
+
+### Sketches on Paper
+The drawings of the website are for the device with large desktop and laptop screens.
+
+* Home Page 
+
+  ![Home page drawing](assets/images/drawing1.jpg)
+
+* Our Stock Page
+
+  ![Our stock drawing](assets/images/drawing2.jpg)
+
+* Contact Page
+
+  ![Contact page drawing](assets/images/drawing3.jpg)
 
 
-## Design / Existing Features
-The website is created based on the initial design on the large desktop size. Then add the media queries to make it responsive on different media screen sizes from 320px up to 1920px. All of pages are re-sized accordingly.
+### Design Choice
+
+* Color Scheme
+  
+    I used *Adobe Color* and *EightShapes Contrast* to determine the primary   color for the background and the text on the website. I select the black background for the website and white color for the text for the maximum contrasts with the images chosen.  
+
+    ![Color theme](assets/images/colortheme.jpg)
+
+
+    ![Color contrast grid](assets/images/contrastgrid.jpg)
+
+* Typography
+
+  The fonts chosen on the website are Lato for the body text that it's easy to read. The fall back fonts are "Open Sans" and sans-serif. The font used for the logo is fantasy chosed on the option list that provides a great contrast to the page text.
+
+
+[Back to Top](#super-cars)
+
+
+## Existing Features
+The website was created based on the initial design for the large desktop. Then add the media queries to make it responsive on different media screen sizes from 320px up to 1920px. All of pages are responsive accordingly.
 
 ### Navigation Header
 
@@ -51,7 +107,8 @@ The website is created based on the initial design on the large desktop size. Th
   ![Header](assets/images/header.jpg)
 
 ### Home Page
-It contains a hero image, descriptions “About Us” and “Our Missions”, following with a services commitments section “Our Commitments” to emphasis Super Cars company’s unique business scope and quality excellent service. This is very inviting and much enthusiasm with promises to gain the trust from the users coming forward to purchase luxurious cars.
+  It contains a hero image with two short lines of text, descriptions “About Us” and “Our Missions”, following with a services commitments section “Our Commitments” to emphasis Super Cars company’s unique business scope and quality excellent service. This is very inviting and much enthusiasm with promises to gain the trust from the users coming forward to purchase luxurious cars.
+
 * Hero Section
 
 ![Hero image](assets/images/hero.jpg)
@@ -60,9 +117,13 @@ It contains a hero image, descriptions “About Us” and “Our Missions”, fo
 
 ![About us and our missions](assets/images/midpage.jpg)
 
+[Back to Top](#super-cars)
+
 * Our Commitment
 
 ![Our commitment](assets/images/comlst.jpg)
+
+[Back to Top](#super-cars)
 
 ### Footer
 All three pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
@@ -82,76 +143,88 @@ The page contains an image and a description, a contact form with a selection li
 
 [Back to Top](#super-cars)
 
+### Future Features
 
-## Planning Stage
-Made a few sketches on the paper to put my ideas on display. Looked for some information about the Lamborghini and Bugatti cars online.
+* An information section for each images on Our Stock page to be implemented that the specification of the car such as model, design, engine capacity etc. It is useful for user to learn more about the car's details while deciding which cars to buy.
+  
+* A slideshow photo gallery for Our Stock page for mobile users. It is easier for small screen users to swipe the screen to view the images.
 
-### Initial Sketches
+## Technologies Used
 
-* Home Page 
+* [HTML5]() - for creating Super Cars website structure with text and images.
 
-    ![Home page drawing](assets/images/drawing1.jpg)
+* [CSS]() - for styling the website content.
 
-* Our Stock Page
+* [GitHub]() - host and deploy the website with its content.
 
-  ![Our stock drawing](assets/images/drawing2.jpg)
+* [GitPod]() - for editing the code and pushing the code to GitHub.
 
-* Contact Page
+* [Font Awesome]() - provides the icons used on the website.
 
-  ![Contact page drawing](assets/images/drawing3.jpg)
+* [Google Fonts]() - provides the fonts for the website.
 
+* [W3C Markup Validatior]() - validate website's HTML code.
 
-[Back to Top](#super-cars)
+* [W3C CSS Jigsaw Validatior]() - validate website's CSS code.
 
+* [Chrome Dev Tools]() - test the code and site responsiveness.
 
-### User Story
-* As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
+* [Adobe Color]() - extract the site's color theme.
 
-* As a first time user, I want to easily navigate around the page for getting to know what the site is about.
+* [EightShape Contrast]() - auto-make color contrast grid.
 
-* As a returning user, the name of website should be easy to type and remember. The images need to be high quality and the text should be easy to read.
+* [Squoosh]() & [Compressor]() - compress and convert the site's images.
 
-* As a returning user, I want the car dealer's website not only provide a collection of cars but also information about the range of services available for further visiting.
+* [Am I Responsive]() - generate site's responsiveness on different screens.
 
-* As a frequent user, I want to know more about cars' design and other features. I also want to know what service packages are offered when buying cars.
+* [Slack]() - get support for the course and the project.
 
-* As a frequent user, I want to know the contact details of Super cars company for viewing and test drive.
+* [Unsplash]() - download all the images.
 
-### Site Owner Story
-* To target the luxurious car buyers, the website must be responsive on different media screen sizes.
+* [Google.com]() - provide certain text content.
 
-* The site shoud have a great collection of high quality photos of premiium cars with different nodels to attact site users to return.
+* [Stack Overflow]() - provide extra support information.
 
-* The content on the website should be easy to load and offer an easy way to navigate around the site where users can easily find a huge range of cars.
+* [W3C School]() - extra learning materials.
 
-* The site uses top quality photos and short description to present the simple yet attactive inviting messages.
+* [Youtube]() - for learning css flexbox.
 
-* The site offers many different contact methods for user to make contact in their preferable contact ways such as phone, email, web-form and other social media platforms.
+* [MDN Web Docs]() - provide reference materials.
 
-
-[Back to Top](#super-cars)
-
-
-### Color Schemes
-I used *Adobe Color* and *EightShapes Contrast* to determine the primary color for the background and text on the website. I select the black background for the website and white color for the text. 
-
-  ![Color theme](assets/images/colortheme.jpg)
-
-
-  ![Color contrast grid](assets/images/contrastgrid.jpg)
-
-
-## Deployment
-On the GitHub page, I go to the supercars repository, then click the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a URL link of [Super Cars](https://veronicalourens.github.io/supercars/)
 
 [Back to Top](#super-cars)
 
 
 ## Testing
 
+### Code Validation
+
+  All the codes for the Super Cars website are validated on the [W3C HTML Markup Validation]() and [W3C CSS Validation] services by entering the Super Cars' URL. 
+
+* W3C Markup Validation - No errors found.
+  * Home Page
+
+    ![Home page](assets/images/w3chome.jpg)
+
+  * Our Stock Page
+
+    ![Our stock page](assets/images/w3cgallery.jpg)
+
+  * Contact Page
+
+    ![Contact page](assets/images/w3ccontact.jpg)
+
+* W3C CSS Validation - No errors found.
+
+  * ![W3C CSS validation result](assets/images/w3cCSS.jpg)
+
+
+[Back to Top](#super-cars)
+
+
 ### Lighthouse Testing
 
-I tested the website on Chrome Incognito window using Lighthouse on dev tools for both mobile and desktop. The final results are showed as following after taking the improvement steps. 
+The website has been tested on Chrome Incognito window using dev tools for both mobile and desktop. 
 
 * Desktop
 
@@ -194,82 +267,22 @@ I tested that the website is fully responsive on desktop, laptop, iPad and mobil
 ### Testing on the browsers
 I have tested that the Super Cars website is accessible on different browsers. It works well on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. The website is fully responsive on devices with different screen sizes while using different browsers. The Super Cars website loads fast on different browers.
 
-### Code Validation
 
-* Initial Result
 
-  All the codes for the Super Cars website are validated on the W3C HTML markup validation and CSS validation by entering the Super Cars' URL. 
+### Known Errors
 
-  * W3C HTML Validation - Two errors and one warning found.
+ * W3C HTML Validation - Two errors and one warning found.
 
     ![W3C HTML validation result](assets/images/w3check.jpg)
 
-  * W3C CSS Validation - No errors found.
 
-    ![W3C CSS validation result](assets/images/w3cCSS.jpg)
 
-* Final Result
 
-  After updateing the HTML and CSS code to fix the issues. No errors were found on all of the three pages.
-
-  * Home Page
-
-      ![Home page](assets/images/w3chome.jpg)
-
-  * Our Stock Page
-
-      ![Our stock page](assets/images/w3cgallery.jpg)
-
-  * Contact Page
-
-      ![Contact page](assets/images/w3ccontact.jpg)
+## Deployment
+On the GitHub page, I go to the supercars repository, then click the tab of "settings", scroll down to the "Github Page" section, then select branch "main" and click "save" under the heading "source". The site is published soon after with a URL link of [Super Cars](https://veronicalourens.github.io/supercars/)
 
 [Back to Top](#super-cars)
 
-
-## Technologies Used
-
-* HTML5 - for creating Super Cars website structure with text and images.
-
-* CSS - for styling the website content.
-
-## Tools Used
-
-* [GitHub]() - host and deploy the website with its content.
-
-* [GitPod]() - for editing the code and pushing the code to GitHub.
-
-* [Font Awesome]() - provides the icons used on the website.
-
-* [Google Fonts]() - provides the fonts for the website.
-
-* [W3C Markup Validatior]() - validate website's HTML code.
-
-* [W3C CSS Jigsaw Validatior]() - validate website's CSS code.
-
-* [Chrome Dev Tools]() - test the code and site responsiveness.
-
-* [Adobe Color]() - extract the site's color theme.
-
-* [EightShape Contrast]() - auto-make color contrast grid.
-
-* [Squoosh]() & [Compressor]() - compress and convert the site's images.
-
-* [Am I Responsive]() - generate site's responsiveness on different screens.
-
-* [Slack]() - get support for the course and the project.
-
-* [Unsplash]() - download all the images.
-
-* [Google.com]() - provide certain text content.
-
-* [Stack Overflow]() - provide extra support information.
-
-* [W3C School]() - extra learning materials.
-
-* [Youtube]() - for learning css flexbox.
-
-* [MDN Web Docs]() - provide reference materials.
   
 
 [Back to Top](#super-cars)
