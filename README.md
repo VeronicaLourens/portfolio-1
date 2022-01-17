@@ -222,7 +222,7 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 
 ### Testing Responsiveness
 
-* The Super Cars website was manually tested on [Google Chrome Dev Tools]() and [Responsive Design Checker]().
+* The Super Cars website was manually tested and passed on [Google Chrome Dev Tools]() and [Responsive Design Checker](). The site is fully responsive.
 
 |       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display <= 1920px** |
 |-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:--------------------:|
@@ -231,7 +231,7 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 |links  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |     &check;          |
 
 
-* The website was tested on my own devices and it is fully responsive on two desktops, two laptops, iPad Air and  mobile phones. 
+* The website was tested and passed on my own devices. It is fully responsive on two desktops, two laptops, iPad Air and  mobile phones. 
 
 |       | **Galaxy Note4** | **Nokia 7 Plus** | **Huawei P30 Pro** | **iPad Air** | **Lenovo E540** | **HP Elitebook 850 G5** | **DELL 2407WFP**|**Yiyama ProLite XB3288UHSU** |
 |-------|:----------------:|:----------------:|:------------------:|:------------:|:---------------:|:-----------------------:|:---------------:|:----------------------------:|
@@ -304,7 +304,7 @@ The Super Cars website was deployed to GitHub page. This is the link of GitHub r
 
 * Steps to deploy the site as following:
 
-  1. In my GitHub repository, select the **Settings** tab;
+  1. On my GitHub repository, select the **Settings** tab;
   2. Then navigate to the **Pages** on the left side of the page;
   3. Select the branch to **main** and click **save** afterwards;
   4. Refresh the page, go back to the **Pages**, there is a ticked message with a link that shows the Super Cars website was successfully deployed.
@@ -314,13 +314,15 @@ The Super Cars website was deployed to GitHub page. This is the link of GitHub r
 
 [Back to Top](#super-cars)
 
-### Local clone on GitHub
+### clone the project 
+
+* Steps to clone Super Cars project from GitHub as following:
+  1. On my GitHub repository page, click the **Code** tab next to the green **Gitpod** button;
+  2. In the **Clone**, click the icon on the right side of the URL under **HTTPS** to copy the given URL;
+  3. In the Gitpod working space, open **Git Bash**;
 
 
 
-
-[Back to Top](#super-cars)
-### Repository fork on GitHub
 
 
 
