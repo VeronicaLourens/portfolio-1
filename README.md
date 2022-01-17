@@ -62,6 +62,8 @@ Click here to view the live website - [Super Cars](https://veronicalourens.githu
 
 * The site offers many different contact methods for user to make contact in their preferable contact ways such as phone, email, web-form and other social media platforms.
 
+[Back to Top](#super-cars)
+
 ### Sketches on Paper
 The drawings of the website are for the device with large desktop and laptop screens.
 
@@ -77,6 +79,7 @@ The drawings of the website are for the device with large desktop and laptop scr
 
   ![Contact page drawing](assets/screenshots/drawing3.jpg)
 
+[Back to Top](#super-cars)
 
 ### Design Choice
 
@@ -128,6 +131,7 @@ The website was created based on the initial design for the large desktop. It co
 
 [Back to Top](#super-cars)
 
+
 ### Footer
 All three pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
 
@@ -137,6 +141,8 @@ All three pages have the same footer at the bottom of the website that includes 
 The page contains a brief description about the characters of Lamborghini Sian and Bugatti Chiron. There is a photo gallery with a huge collection of different model luxurious cars available in the Super Cars showroom. 
 
 ![Gallery page](assets/screenshots/gallerypg.jpg)
+
+[Back to Top](#super-cars)
 
 ### Contact Page
 The page contains an image and a description, a contact form with a selection list of cars for user to choose when making contact and send their interests and messages to Super Cars company. Users can easily contact or visit Super Cars company to view or test drive.
@@ -175,7 +181,7 @@ The page contains an image and a description, a contact form with a selection li
 
 ### Code Validation
 
-  All the codes for the Super Cars website are validated on the [W3C HTML Markup Validation]() and [W3C CSS Validation] services by entering the Super Cars' URL. 
+  All the codes for the Super Cars website are validated on the [W3C HTML Markup Validation]() and [W3C CSS Validation]() services by entering the Super Cars' URL. 
 
 * W3C Markup Validation - No errors found.
   * Home Page
@@ -216,17 +222,32 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 
 ### Testing Responsiveness
 
-The Super Cars website was manually tested on [Google Chrome Dev Tools]() and [Responsive Design Checker]().
+* The Super Cars website was manually tested on [Google Chrome Dev Tools]() and [Responsive Design Checker]().
+
+|       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display <= 1920px** |
+|-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:--------------------:|
+|Render |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |     &check;          |
+|Image  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |     &check;          |
+|links  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |     &check;          |
 
 
+* The website was tested on my own devices and it is fully responsive on two desktops, two laptops, iPad Air and  mobile phones. 
 
+|       | **Galaxy Note4** | **Nokia 7 Plus** | **Huawei P30 Pro** | **iPad Air** | **Lenovo E540** | **HP Elitebook 850 G5** | **DELL 2407WFP**|**Yiyama ProLite XB3288UHSU** |
+|-------|:----------------:|:----------------:|:------------------:|:------------:|:---------------:|:-----------------------:|:---------------:|:----------------------------:|
+|Render |    &check;       |   &check;        |      &check;       |    &check;   |     &check;     |          &check;        |     &check;     |          &check;             |
+|Image  |    &check;       |   &check;        |      &check;       |    &check;   |     &check;     |          &check;        |     &check;     |          &check;             |
 
-I tested that the website is fully responsive on desktop, laptop, iPad and mobile phone. Initially, it worked well on the desktop, laptop and iPad. However, it only displayed the top parts of the site on my phone due to the site couldn't be scrolled down to see the rest of the site. I assumed that the rest of the site was blocked for whatever reason. It did work on landscape mode on my phone when I turned my phone sideways. It works well after ajusting the CSS code. 
 
 ### Testing on the browsers
-I have tested that the Super Cars website is accessible on different browsers. It works well on **Google Chrome**, **Microsoft Edge**, **Safari** and **Mozilla Firefox**. The website is fully responsive on devices with different screen sizes while using different browsers. The Super Cars website loads fast on different browers.
+The website is accessible on the following browsers. It is fully responsive on devices with different screen sizes while using these browsers.
+* **Google Chrome** 
+* **Microsoft Edge**
+* **Safari**
+* **Mozilla Firefox**. 
 
 
+[Back to Top](#super-cars)
 
 ### Known Bugs
 
@@ -241,7 +262,9 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
     * To improve the performance score
 
-      Compressed and converted all of images to jpg format and replaced all images on three pages. I also created a new media css file and placed the media query css code to a separate media css file. Deleted  empty spaces both on html and css file. 
+      * Compressed and converted all of images to jpg format and replaced all images on three pages. 
+      * Created a new media css file and placed the media query css code to a separate media css file. 
+      * Deleted empty spaces both on html and css file. 
 
   * Accessibility Score
 
@@ -249,16 +272,20 @@ I have tested that the Super Cars website is accessible on different browsers. I
 
     * To improve the accessibility score
 
-    I changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color.  Increased the font-size on the media query styling to ensure the readability on small screens. I added an section with a h3 heading to the gallery page in order to make the headings in a sequentially descending order. Adjusted the header element to avoid the elements overlapping on small screens. 
+      * Changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color. 
+      * Increased the font-size on the media query styling to ensure the readability on small screens. 
+      * Added an section with a h3 heading to the gallery page in order to make the headings in a sequentially descending order. 
+      * Adjusted the header element to avoid the elements overlapping on small screens. 
 
   * Best Practices Score
 
-    * The initial score was 98% for all of the three pages. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
+    The initial score was 98% for all of the three pages. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
 
   * SEO Score
 
-    * SEO was initially 97% on all three pages due to the typo on the HTML footer element. I corrected the typo on the social media links “noopenner” to “noopener”. The score was improved to 100%.
+    SEO was initially 97% on all three pages due to the typo on the HTML footer element. I corrected the typo on the social media links “noopenner” to “noopener”. The score was improved to 100%.
 
+[Back to Top](#super-cars)
 
 ### Limitation
 
@@ -281,11 +308,18 @@ The Super Cars website was deployed to GitHub page. This is the link of GitHub r
   2. Then navigate to the **Pages** on the left side of the page;
   3. Select the branch to **main** and click **save** afterwards;
   4. Refresh the page, go back to the **Pages**, there is a ticked message with a link that shows the Super Cars website was successfully deployed.
+   
 
   ![Site deployment](assets/screenshots/github.jpg)
 
+[Back to Top](#super-cars)
+
 ### Local clone on GitHub
 
+
+
+
+[Back to Top](#super-cars)
 ### Repository fork on GitHub
 
 
@@ -335,6 +369,7 @@ The Super Cars website was deployed to GitHub page. This is the link of GitHub r
   * [Responsive Design Checker]() - check the site's responsiveness.
 
 
+[Back to Top](#super-cars)
 
 ## Acknowledgement
 
