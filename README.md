@@ -225,19 +225,19 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 * The Super Cars website was manually tested and passed on [Google Chrome Dev Tools]() and [Responsive Design Checker](). The site is fully responsive.
 
 |       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display <= 1920px** |
-|-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:--------------------:|
-|Render |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |     &check;          |
-|Image  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |     &check;          |
-|links  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |     &check;          |
+|-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:--------------- -----:|
+|Render |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |      &check;          |
+|Image  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |      &check;          |
+|Links  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |      &check;          |
 
 
 * The website was tested and passed on my own devices. It is fully responsive on two desktops, two laptops, iPad Air and  mobile phones. 
 
-|       | **Galaxy Note4** | **Nokia 7 Plus** | **Huawei P30 Pro** | **iPad Air** | **Lenovo E540** | **HP Elitebook 850 G5** | **DELL 2407WFP**|**Yiyama ProLite XB3288UHSU** |
-|-------|:----------------:|:----------------:|:------------------:|:------------:|:---------------:|:-----------------------:|:---------------:|:----------------------------:|
-|Render |    &check;       |   &check;        |      &check;       |    &check;   |     &check;     |          &check;        |     &check;     |          &check;             |
-|Image  |    &check;       |   &check;        |      &check;       |    &check;   |     &check;     |          &check;        |     &check;     |          &check;             |
-
+|       |**Galaxy Note4**|**Nokia 7 Plus**|**Huawei P30 Pro**|**iPad Air**|**Lenovo E540**|**HP Elitebook 850 G5**|**DELL 2407WFP**|**Yiyama ProLite XB3288UHSU**|
+|-------|:--------------:|:--------------:|:----------------:|:----------:|:-------------:|:---------------------:|:---------------:|:--------------------------:|
+|Render |    &check;     |   &check;      |      &check;     |   &check;  |    &check;    |        &check;        |     &check;     |        &check;             |
+|Image  |    &check;     |   &check;      |      &check;     |   &check;  |    &check;    |        &check;        |     &check;     |        &check;             |
+|Links  |    &check;     |   &check;      |      &check;     |   &check;  |    &check;    |        &check;        |     &check;     |        &check;             |
 
 ### Testing on the browsers
 The website is accessible on the following browsers. It is fully responsive on devices with different screen sizes while using these browsers.
@@ -255,35 +255,44 @@ The website is accessible on the following browsers. It is fully responsive on d
 
     ![W3C HTML validation result](assets/screenshots/w3check.jpg)
 
+* Lighthouse testing issues due to the large size of the images and color contrast.
+
 * Resolved
-  * Performance Score
+  
+   * W3C HTML Validation errors
+     * Replaced the code with superscript at line 65 in index.html file.
+     * Added code for the image to CSS file.
+     * Added an extra section with heading h3.
 
-    The initial scores were 73% on the home page, 87% on the gallery page and 92% on the contact page due to the render-blocking resources found such as cumulative layout shift, largest contentful paint, large size of images, large size of css file and images were not set an explicit width and height.
+   * Lighthouse testing
+      * Performance Score
 
-    * To improve the performance score
+        The initial scores were 73% on the home page, 87% on the gallery page and 92% on the contact page due to the render-blocking resources found such as cumulative layout shift, largest contentful paint, large size of images, large size of css file and images were not set an explicit width and height.
 
-      * Compressed and converted all of images to jpg format and replaced all images on three pages. 
-      * Created a new media css file and placed the media query css code to a separate media css file. 
-      * Deleted empty spaces both on html and css file. 
+      * To improve the performance score
 
-  * Accessibility Score
+        * Compressed and converted all of images to jpg format and replaced all images on three pages. 
+        * Created a new media css file and placed the media query css code to a separate media css file. 
+        * Deleted empty spaces both on html and css file. 
 
-    The initial accessibility scores were between 92% - 96% due to the background and foreground contrast ratio issues. The font size was set to less than 12px.  The heading element on the gallery page was not in sequentially descending order. 
+      * Accessibility Score
 
-    * To improve the accessibility score
+        The initial accessibility scores were between 92% - 96% due to the  background and foreground contrast ratio issues. The font size was set to less than 12px.  The heading element on the gallery page was not in sequentially descending order. 
 
-      * Changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color. 
-      * Increased the font-size on the media query styling to ensure the readability on small screens. 
-      * Added an section with a h3 heading to the gallery page in order to make the headings in a sequentially descending order. 
-      * Adjusted the header element to avoid the elements overlapping on small screens. 
+      * To improve the accessibility score
 
-  * Best Practices Score
+        * Changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color. 
+        * Increased the font-size on the media query styling to ensure the readability on small screens. 
+        * Added an section with a h3 heading to the gallery page in order to make the headings in a sequentially descending order. 
+        * Adjusted the header element to avoid the elements overlapping on small screens. 
 
-    The initial score was 98% for all of the three pages. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
+    * Best Practices Score
 
-  * SEO Score
+      The initial score was 98% for all of the three pages. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
 
-    SEO was initially 97% on all three pages due to the typo on the HTML footer element. I corrected the typo on the social media links “noopenner” to “noopener”. The score was improved to 100%.
+    * SEO Score
+
+      SEO was initially 97% on all three pages due to the typo on the HTML footer element. I corrected the typo on the social media links “noopenner” to “noopener”. The score was improved to 100%.
 
 [Back to Top](#super-cars)
 
@@ -300,7 +309,7 @@ The website is accessible on the following browsers. It is fully responsive on d
 ## Deployment
 
 ### Site deployment
-The Super Cars website was deployed to GitHub page. This is the link of GitHub repository - <https://veronicalourens.github.io/supercars/>
+The Super Cars website was deployed to GitHub page. This is the link - <https://veronicalourens.github.io/supercars/>
 
 * Steps to deploy the site as following:
 
@@ -319,12 +328,11 @@ The Super Cars website was deployed to GitHub page. This is the link of GitHub r
 * Steps to clone Super Cars project from GitHub as following:
   1. On my GitHub repository page, click the **Code** tab next to the green **Gitpod** button;
   2. In the **Clone**, click the icon on the right side of the URL under **HTTPS** to copy the given URL;
-  3. In the Gitpod working space, open **Git Bash**;
+  3. Go to the selected IDE and create a file where the project would be cloned.
+  4. Type **git clone** on the the terminal, then paste the copied **Super Cars** URL from GitHub;
+  5. Press **Enter** to complete the clone process.
 
-
-
-
-
+  ![Clone the repository](assets/screenshots/clone.jpg)
 
 
 [Back to Top](#super-cars)
