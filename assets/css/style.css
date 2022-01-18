@@ -297,7 +297,7 @@ footer {
 }
 
 #photo-gallery-container > img {
-    min-width: 300px;
+    max-width: 300px;
     padding: 10px;
     border-radius: 20px;
 }

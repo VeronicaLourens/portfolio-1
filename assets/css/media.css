@@ -8,12 +8,21 @@
 
     /* hero section */
     #hero-image {
-        height: 1400px;
+        height: 1200px;
+    }
+
+    .hero-text h2 {
+        font-size: 220%;
     }
 
     /* our commitment section */
     #com-container {
-        height: 1700px;
+        height: 1100px;
+    }
+
+    /* our stock page */
+    #photo-gallery-container>img {
+        max-width: unset;
     }
 
 }

@@ -233,7 +233,7 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 |Links  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        | 
 
 
-* The website was tested and passed on my own devices. It is fully responsive on two desktops, two laptops, iPad Air and  mobile phones. 
+* The website was tested and passed on my own devices. It is fully responsive on two desktops, two laptops, iPad Air and  three mobile phones. 
 
 |       |**Galaxy Note4**|**Nokia 7 Plus**|**Huawei P30 Pro**|**iPad Air**|**Lenovo E540**|**HP Elitebook 850 G5**|**DELL 2407WFP**|**Yiyama ProLite XB3288UHSU**|
 |-------|:--------------:|:--------------:|:----------------:|:----------:|:-------------:|:---------------------:|:---------------:|:--------------------------:|
