@@ -23,16 +23,18 @@ Click here to view the live website - [Super Cars](https://veronicalourens.githu
     - [Footer](#footer)
     - [Our Stock Page](#our-stock-page)
     - [Contact Page](#contact-page)
-    - [Limitation](#limitation)
     - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
     - [Code Validation](#code-validation)
     - [Lighthouse Testing](#lighthouse-testing)
-    - [Testing on screens](#testing-on-screens)
+    - [Testing Responsiveness](#testing-responsiveness)
     - [Testing on the browsers](#testing-on-the-browsers)
-    - [Known Errors](#known-errors)
+    - [Known Bugs](#known-bugs)
+    - [Limitation](#limitation)
   - [Deployment](#deployment)
+    - [Site deployment](#site-deployment)
+    - [clone the project](#clone-the-project)
   - [Credit](#credit)
   - [Acknowledgement](#acknowledgement)
 
@@ -102,7 +104,7 @@ The drawings of the website are for the device with large desktop and laptop scr
 
 ## Existing Features
 
-The website was created based on the initial design for the large desktop. It contains three pages.Then add the media queries to make it responsive on different media screen sizes from 320px up to 1920px. All of pages are responsive accordingly.
+The website was created based on the initial design for the large desktop. It contains three pages.Then add the media queries to make it responsive on different media screen sizes from 320px up to 3000px. All of pages are responsive accordingly.
 
 ### Navigation Header
 

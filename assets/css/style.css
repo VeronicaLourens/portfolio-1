@@ -184,7 +184,7 @@ h1, h2, h3, h4, p {
 }
 
 #com-container img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .com-list {
@@ -297,7 +297,7 @@ footer {
 }
 
 #photo-gallery-container > img {
-    max-width: 300px;
+    min-width: 300px;
     padding: 10px;
     border-radius: 20px;
 }

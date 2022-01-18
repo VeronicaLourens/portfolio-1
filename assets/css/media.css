@@ -1,3 +1,23 @@
+/* media query for high resolution screens under 3000px */
+@media (min-width: 1920px) {
+    /* nav-bar */
+    #nav-bar li {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    /* hero section */
+    #hero-image {
+        height: 1400px;
+    }
+
+    /* our commitment section */
+    #com-container {
+        height: 1700px;
+    }
+
+}
+
 /* media query for large screens 1025px to higher resolution desktops */
 @media (min-width: 1025px) and (max-width: 1920px) {
     /* logo and navigation bar */
