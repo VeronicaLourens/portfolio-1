@@ -390,5 +390,18 @@ footer {
     cursor: pointer;
 }
 
+/* form feedback page */
+
+#form-feedback-container {
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+#form-feedback-container p {
+    font-size: 100%;
+    padding: 10px;
+    text-align: center;
+}
 
 

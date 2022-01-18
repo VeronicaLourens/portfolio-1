@@ -226,7 +226,7 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 
 * The Super Cars website was manually tested and passed on [Google Chrome Dev Tools]() and [Responsive Design Checker](). The site is fully responsive.
 
-|       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display <= 1920px** |
+|       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display < 2850px**  |
 |-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:---------------------:|
 |Render |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |  
 |Image  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |   
@@ -302,7 +302,7 @@ The website is accessible on the following browsers. It is fully responsive on d
 
 * The contact details on the page such as address, phone number and email address cannot be actually used due to they are created only for display purpose with no actual functions.
 
-* The contact form on the Contact page cannot be stored any data and sent actual messages because there is no actual functionality of the form. The form attributes are deleted in HTML file to avoid any error.
+* The contact form on the Contact page cannot be stored any data and sent actual messages because there is no actual functionality of the form. 
 
 * There might be minor issues regarding English grammer or typo on the content of the website.
 

@@ -154,6 +154,14 @@
         margin: 10px auto;
     }
 
+    /* form feedback page */
+
+    #form-feedback-container {
+
+        padding: 5px;
+        margin: 5px auto;
+    }
+
 }
 
 /* media query for small tablets and larger mobile phones */
@@ -290,6 +298,14 @@
     #contact-container {
         max-width: 80%;
         margin: 10px auto;
+    }
+
+    /* form feedback page */
+
+    #form-feedback-container {
+
+        padding: 5px;
+        margin: 5px auto;
     }
 }
 
@@ -468,6 +484,14 @@
         width: 90px;
         padding: 10px;
         font-size: 15px;
+    }
+
+    /* form feedback page */
+
+    #form-feedback-container {
+        
+        padding: 5px;
+        margin: 5px auto;
     }
 
 }
