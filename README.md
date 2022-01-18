@@ -225,10 +225,10 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 * The Super Cars website was manually tested and passed on [Google Chrome Dev Tools]() and [Responsive Design Checker](). The site is fully responsive.
 
 |       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display <= 1920px** |
-|-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:--------------- -----:|
-|Render |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |      &check;          |
-|Image  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |      &check;          |
-|Links  |    &check;  |   &check;     |  &check;     |  &check; |   &check;    |   &check;            |      &check;          |
+|-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:---------------------:|
+|Render |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |  
+|Image  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |   
+|Links  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        | 
 
 
 * The website was tested and passed on my own devices. It is fully responsive on two desktops, two laptops, iPad Air and  mobile phones. 
