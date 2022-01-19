@@ -15,11 +15,6 @@
         font-size: 220%;
     }
 
-    /* our commitment section */
-    #com-container {
-        height: 1100px;
-    }
-
     /* our stock page */
     #photo-gallery-container>img {
         max-width: unset;
@@ -66,10 +61,6 @@
     }
 
     /* our commitment section */
-    #com-container {
-        height: 80%;
-
-    }
 
     .com-list {
         top: 50%;
@@ -123,10 +114,6 @@
     }
 
     /* our commitment section */
-    #com-container {
-        height: auto;
-    }
-
     #con-container h4 {
         font-size: 90%;
     }
@@ -241,7 +228,6 @@
 
     /* our commitment section */
     #com-container {
-        height: auto;
         margin-top: 10px;
     }
 
@@ -400,7 +386,6 @@
 
     /* our commitment section */
     #com-container {
-        height: auto;
         margin-top: 0;
     }
 
