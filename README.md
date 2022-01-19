@@ -104,7 +104,7 @@ The drawings of the website are for the device with large desktop and laptop scr
 
 ## Existing Features
 
-The website was created based on the initial design for the large desktop. It contains three pages.Then add the media queries to make it responsive on different media screen sizes from 320px up to 3000px. All of pages are responsive accordingly.
+The website was created based on the initial design for the large desktop. It contains four pages.Then add the media queries to make it responsive on different media screen sizes from 320px up to 3000px. All of pages are responsive accordingly.
 
 ### Navigation Header
 
@@ -154,6 +154,10 @@ The page contains an image and a description, a contact form with a selection li
 
 [Back to Top](#super-cars)
 
+### Form-feedback Page
+The page contains an image and a short thank you message after user send the message on the "Contact form". Letting user know when the message would be responded.
+
+![Form-feedback page](assets/screenshorts/formfdbk.jpg)
 
 
 ### Future Features
@@ -226,7 +230,7 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 
 * The Super Cars website was manually tested and passed on [Google Chrome Dev Tools]() and [Responsive Design Checker](). The site is fully responsive.
 
-|       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display < 2850px**  |
+|       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display < 3000px**  |
 |-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:---------------------:|
 |Render |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |  
 |Image  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |   
