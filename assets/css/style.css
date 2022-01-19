@@ -180,7 +180,7 @@ h1, h2, h3, h4, p {
     height: 900px;
     position: relative;
     margin-top: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #com-container img {
@@ -327,10 +327,12 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 #top-container img {
     max-width: 50%;
     border-radius: 15px;
 }
+
 #right-box {
     width: 40%;
     padding: 20px;
@@ -392,14 +394,19 @@ footer {
 
 /* form feedback page */
 
-#form-feedback-container {
+#feedback-img-box img {
     width: 100%;
+}
+#form-feedback-box {
+    width: 80%;
     padding: 20px;
     margin: 20px auto;
+    font-size: 120%;
+    letter-spacing: 2px;
 }
 
-#form-feedback-container p {
-    font-size: 100%;
+#form-feedback-box p {
+    font-size: 110%;
     padding: 10px;
     text-align: center;
 }

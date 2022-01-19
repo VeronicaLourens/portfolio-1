@@ -154,12 +154,14 @@
         margin: 10px auto;
     }
 
+
     /* form feedback page */
 
-    #form-feedback-container {
-
-        padding: 5px;
-        margin: 5px auto;
+    #form-feedback-box {
+        width: 100%;
+        padding: 15px 0 0 0;
+        margin: 10px 0 0 0;
+        font-size: 100%;
     }
 
 }
@@ -300,13 +302,16 @@
         margin: 10px auto;
     }
 
+
     /* form feedback page */
 
-    #form-feedback-container {
-
-        padding: 5px;
-        margin: 5px auto;
+    #form-feedback-box {
+        width: 100%;
+        padding: 15px 0 0 0;
+        margin: 10px 0 0 0;
+        font-size: 90%;
     }
+
 }
 
 /* media query for mobile phones with smaller screens */
@@ -488,10 +493,11 @@
 
     /* form feedback page */
 
-    #form-feedback-container {
-        
-        padding: 5px;
-        margin: 5px auto;
+    #form-feedback-box {
+        width: 100%;
+        padding: 15px 0 0 0;
+        margin: 10px 0 0 0;
+        font-size: 90%;
     }
 
 }
