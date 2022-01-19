@@ -157,7 +157,7 @@ The page contains an image and a description, a contact form with a selection li
 ### Form-feedback Page
 The page contains an image and a short thank you message after user send the message on the "Contact form". Letting user know when the message would be responded.
 
-![Form-feedback page](assets/screenshorts/formfdbk.jpg)
+![Form-feedback page](assets/screenshots/formfdbk.jpg)
 
 
 ### Future Features
