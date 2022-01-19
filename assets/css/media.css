@@ -157,6 +157,12 @@
 @media (min-width: 480px) and (max-width: 899px) {
 
     /* logo and navigation bar */
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+
     #logo-left {
         font-size: 70%;
     }
@@ -309,6 +315,12 @@
     }
 
     /* logo and navigation bar */
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+    
     #nav-container {
         flex-direction: column;
         padding: 15px;
