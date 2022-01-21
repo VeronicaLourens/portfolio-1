@@ -1,7 +1,7 @@
 # Super Cars
 
 ## Site Overview
-Super Cars is a leading luxurious car dealer selling premium Lamborghini and Bugatti luxurious cars. The website intends to target people who are interested in buying high speed top brand luxurious cars. The site offeres exclusive information about the company and a range of cars available to attract site visitors to purchase their dream car.
+Super Cars is a leading luxurious car dealer specialised in selling premium Lamborghini and Bugatti luxurious cars. The website intends to target people who are interested in buying high speed top brand luxurious cars. The site offeres exclusive information about the company and a range of cars available to attract site visitors to purchase the luxurious car.
 
 
 ![Responsive site on different screens](assets/screenshots/responsive.jpg)
@@ -104,18 +104,18 @@ The drawings of the website are for the device with large desktop and laptop scr
 
 ## Existing Features
 
-The website was created based on the initial design for the large desktop. It contains four pages.Then add the media queries to make it responsive on different media screen sizes from 320px up to 3000px. All of pages are responsive accordingly.
+The website contians four pages. All of pages are responsive accordingly on different media screen sizes from 320px up to 3000px.
 
 ### Navigation Header
 
-  * All three pages have the same logo and nativation menu on the top of the website. Logo "Super Cars" on the left, navigation links "Home, Our Stock and Contact" in the middle and the a graphic logo on the right.
+  * All of four pages have the same logo and nativation menu on the top of the website. Logo "Super Cars" on the left, navigation links "Home, Our Stock and Contact" in the middle and the a graphic logo on the right.
 
   * The navigation header clearly shows the user where to find the relevant information around the website. 
   
   ![Header](assets/screenshots/header.jpg)
 
 ### Home Page
-  It contains a hero image with two short lines of text, descriptions “About Us” and “Our Missions”, following with a services commitments section “Our Commitments” to emphasis Super Cars company’s unique business scope and quality excellent service. This is very inviting and much enthusiasm with promises to gain the trust from the users coming forward to purchase luxurious cars.
+  It contains a hero image with two short lines of text, descriptions “About Us” and “Our Mission”, following with a services commitment section “Our Commitment” to emphasis Super Cars company’s unique business scope and quality excellent service. This is very inviting and much enthusiasm with promises to gain the trust from the users coming forward to purchase luxurious cars.
 
 * Hero Section
 
@@ -135,7 +135,7 @@ The website was created based on the initial design for the large desktop. It co
 
 
 ### Footer
-All three pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
+All of four pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
 
 ![Footer](assets/screenshots/footer.jpg)
 
@@ -155,7 +155,7 @@ The page contains an image and a description, a contact form with a selection li
 [Back to Top](#super-cars)
 
 ### Form-feedback Page
-The page contains an image and a short thank you message after user send the message on the "Contact form". Letting user know when the message would be responded.
+The page contains an image and a short thank you message after user send the message on the "Contact form". Letting user know when the message would be responded. This page was created on the request of the client during the project's final phase.
 
 ![Form-feedback page](assets/screenshots/formfdbk.jpg)
 
@@ -273,38 +273,34 @@ The website is accessible on the following browsers. It is fully responsive on d
    * Lighthouse testing
       * Performance Score
 
-        The initial scores were 73% on the home page, 87% on the gallery page and 92% on the contact page due to the render-blocking resources found such as cumulative layout shift, largest contentful paint, large size of images, large size of css file and images were not set an explicit width and height.
+        The initial scores were between 73% - 92% due to the render-blocking resources found such as cumulative layout shift and largest contentful paint.
 
       * To improve the performance score
 
-        * Compressed and converted all of images to jpg format and replaced all images on three pages. 
-        * Created a new media css file and placed the media query css code to a separate media css file. 
+        * Replaced all images with compressed ones. 
+        * Rearranged the code to a separate media css file. 
         * Deleted empty spaces both on html and css file. 
 
       * Accessibility Score
 
-        The initial accessibility scores were between 92% - 96% due to the  background and foreground contrast ratio issues. The font size was set to less than 12px.  The heading element on the gallery page was not in sequentially descending order. 
+        The initial scores were between 92% - 96% due to some minor issues that the background and foreground contrast, the font size for small screens, and the headings' order. 
 
       * To improve the accessibility score
 
-        * Changed the background color of “commitment list” on the home page to darker blue background for better contrast with the text color. 
-        * Increased the font-size on the media query styling to ensure the readability on small screens. 
-        * Added an section with a h3 heading to the gallery page in order to make the headings in a sequentially descending order. 
+        * Changed the background color of “commitment list” for better contrast with the text color. 
+        * Increased the font-size to ensure the readability on small screens. 
+        * Added a h3 heading to the gallery page to make the headings in a sequentially descending order. 
         * Adjusted the header element to avoid the elements overlapping on small screens. 
-
-    * Best Practices Score
-
-      The initial score was 98% for all of the three pages. There was no major issues. The score went up to 100% during improvements made on other parts of testing.
 
     * SEO Score
 
-      SEO was initially 97% on all three pages due to the typo on the HTML footer element. I corrected the typo on the social media links “noopenner” to “noopener”. The score was improved to 100%.
+      SEO scores were initially 97% on all pages due to the typo on the footer element. Corrected the typo on the social media links “noopenner” to “noopener”. 
 
 [Back to Top](#super-cars)
 
 ### Limitation
 
-* The contact details on the page such as address, phone number and email address cannot be actually used due to they are created only for display purpose with no actual functions.
+* The contact details on the page such as address, phone number and email address cannot be actually used becuase they are created only for display purpose with no actual functions.
 
 * The contact form on the Contact page cannot be stored any data and sent actual messages because there is no actual functionality of the form. 
 
@@ -319,7 +315,7 @@ The Super Cars website was deployed to GitHub page. This is the link - <https://
 
 * Steps to deploy the site as following:
 
-  1. On my GitHub repository, select the **Settings** tab;
+  1. On my GitHub supercars repository, select the **Settings** tab;
   2. Then navigate to the **Pages** on the left side of the page;
   3. Select the branch to **main** and click **save** afterwards;
   4. Refresh the page, go back to the **Pages**, there is a ticked message with a link that shows the Super Cars website was successfully deployed.
@@ -332,7 +328,7 @@ The Super Cars website was deployed to GitHub page. This is the link - <https://
 ### clone the project 
 
 * Steps to clone Super Cars project from GitHub as following:
-  1. On my GitHub repository page, click the **Code** tab next to the green **Gitpod** button;
+  1. On my GitHub supercars repository page, click the **Code** tab next to the green **Gitpod** button;
   2. In the **Clone**, click the icon on the right side of the URL under **HTTPS** to copy the given URL;
   3. Go to the selected IDE and create a file where the project would be cloned.
   4. Type **git clone** on the the terminal, then paste the copied **Super Cars** URL from GitHub;

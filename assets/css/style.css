@@ -24,6 +24,7 @@ header {
     position: sticky;
     top: 0;
     background-color: black;
+    z-index: 1;
 }
 #nav-container {
     width: 100%;
