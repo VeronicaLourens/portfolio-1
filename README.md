@@ -83,7 +83,7 @@ The drawings of the website are for the device with large desktop and laptop scr
 
 [Back to Top](#super-cars)
 
-### Design Choice
+### Design Choice    
 
 * Color Scheme
   
@@ -92,7 +92,7 @@ The drawings of the website are for the device with large desktop and laptop scr
     ![Color theme](assets/screenshots/colortheme.jpg)
 
 
-    ![Color contrast grid](assets/screenshots/contrastgrid.jpg)
+    [Color contrast grid](assets/screenshots/contrastgrid.jpg)
 
 * Typography
 
@@ -159,7 +159,7 @@ The page contains an image and a short thank you message after user send the mes
 
 ![Form-feedback page](assets/screenshots/formfdbk.jpg)
 
-
+[Back to Top](#super-cars)
 ### Future Features
 
 * An option to add animation for the hero image on the Home page. It gives user better visual impression about the car.
@@ -168,7 +168,7 @@ The page contains an image and a short thank you message after user send the mes
   
 * A slideshow photo gallery for Our Stock page for mobile users. It is easier for small screen users to swipe the screen to view the images.
   
-
+[Back to Top](#super-cars)
 ## Technologies Used
 
 * [HTML5]() - for creating Super Cars website structure with text and images.
@@ -197,7 +197,7 @@ The page contains an image and a short thank you message after user send the mes
   * Our Stock Page
 
     ![Our stock page](assets/screenshots/w3cgallery.jpg)
-
+[Back to Top](#super-cars)
   * Contact Page
 
     ![Contact page](assets/screenshots/w3ccontact.jpg)
@@ -230,13 +230,13 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 
 * The Super Cars website was manually tested and passed on [Google Chrome Dev Tools]() and [Responsive Design Checker](). The site is fully responsive.
 
-|       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display < 3000px**  |
+|       | **Moto G4** | **Galaxy S5** | **iPhone 5** | **iPad** | **iPad Pro** | **Display < 1200px** | **Display <= 3000px**  |
 |-------|:-----------:|:-------------:|:------------:|:--------:|:------------:|:--------------------:|:---------------------:|
 |Render |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |  
 |Image  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        |   
 |Links  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        | 
 
-
+[Back to Top](#super-cars)
 * The website was tested and passed on my own devices. It is fully responsive on two desktops, two laptops, iPad Air and  three mobile phones. 
 
 |       |**Galaxy Note4**|**Nokia 7 Plus**|**Huawei P30 Pro**|**iPad Air**|**Lenovo E540**|**HP Elitebook 850 G5**|**DELL 2407WFP**|**Yiyama ProLite XB3288UHSU**|
