@@ -200,6 +200,8 @@ The page contains an image and a short thank you message after user send the mes
 * [GitHub]() - host and deploy the website with its content.
 
 * [GitPod]() - for editing the code and pushing the code to GitHub.
+  
+* [VS Code]() - for cloning project to local machine.
 
 
 [Back to Top](#super-cars)
@@ -318,8 +320,6 @@ The website is accessible on the following browsers. It is fully responsive on d
 
         The initial scores were between 92% - 96% due to some minor issues that the background and foreground contrast, the font size for small screens, and the headings' order. 
 
-[Back to Top](#super-cars)
-
       * To improve the accessibility score
 
         * Changed the background color of “commitment list” for better contrast with the text color. 
@@ -329,7 +329,8 @@ The website is accessible on the following browsers. It is fully responsive on d
 
       * SEO Score
 
-      SEO scores were initially 97% on all pages due to the typo on the footer element. Corrected the typo on the social media links “noopenner” to “noopener”. 
+        SEO scores were initially 97% on all pages due to the typo on the footer element. 
+        * Corrected the typo on the social media links “noopenner” to “noopener”. 
 
 [Back to Top](#super-cars)
 
@@ -337,13 +338,9 @@ The website is accessible on the following browsers. It is fully responsive on d
 
 * As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
 
-  * Super Cars website is accessible on the most commonly used web browsers:
-      * Google Chrome
-      * Microsoft Edge
-      * Safari
-      * Mozilla Firefox.
+  * Super Cars website is accessible on the most commonly used web browsers: **Google Chrome**, **Microsoft Edge**, **Safari**, **Mozilla Firefox**.
   
-    * The website is responsive on a range of media devices from 320px to large screens  up to 3000px with
+  * The website is responsive on a range of media devices from 320px to large screens  up to 3000px with
 
 * As a first time user, I want to easily navigate around the page for getting to know what the site is about.
 
@@ -352,8 +349,6 @@ The website is accessible on the following browsers. It is fully responsive on d
   * The description on the Home page About Us that provides clear information about Super Cars company and its business.
 
   * The sticky header gives user a quick access to different page on the small screens no matter where user is on the website.
-
-[Back to Top](#super-cars)
 
 * As a returning user, the name of website should be easy to type and remember. The images need to be high quality and the text should be easy to read.
   
@@ -368,8 +363,6 @@ The website is accessible on the following browsers. It is fully responsive on d
 * As a frequent user, I want to know more about cars' design and other features when buying cars.
 
   * A total of 27 images on the site where user can easily find the different model cars with different design and style.
-
-[Back to Top](#super-cars)
 
 * As a frequent user, I want to know the contact details of Super cars company for viewing and test drive.
 
@@ -440,8 +433,6 @@ The Super Cars website was deployed to GitHub page. This is the link - <https://
   * [EightShape Contrast]() - auto-make color contrast grid.
 
   * [Squoosh]() & [Compressor]() - compress and convert the site's images.
-
-[Back to Top](#super-cars)
 
   * [Am I Responsive]() - generate site's responsiveness on different screens.
 
