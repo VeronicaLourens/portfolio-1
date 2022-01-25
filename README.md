@@ -49,9 +49,11 @@ Click here to view the live website - [Super Cars](https://veronicalourens.githu
 
 * As a returning user, I want the car dealer's website not only provide a collection of cars but also information about the range of services available for further visiting.
 
-* As a frequent user, I want to know more about cars' design and other features. I also want to know what service packages are offered when buying cars.
+* As a frequent user, I want to know more about cars' design and other features when buying cars.
 
 * As a frequent user, I want to know the contact details of Super cars company for viewing and test drive.
+
+[Back to Top](#super-cars)
 
 ### Site Owner Stories
 * To target the luxurious car buyers, the website must be responsive on different media screen sizes.
@@ -75,13 +77,23 @@ The drawings of the website are for the device with large desktop and laptop scr
 
   ![Home page drawing](assets/screenshots/drawing1.jpg)
 
+[Back to Top](#super-cars)
+
 * Our Stock Page
 
   ![Our stock drawing](assets/screenshots/drawing2.jpg)
 
+[Back to Top](#super-cars)
+
 * Contact Page
 
   ![Contact page drawing](assets/screenshots/drawing3.jpg)
+
+[Back to Top](#super-cars)
+
+* Form feedback Page
+
+  ![Form feedback page](assets/screenshots/drawing4.jpg)
 
 [Back to Top](#super-cars)
 
@@ -116,12 +128,16 @@ The website contians four pages. All of pages are responsive accordingly on diff
   
   ![Header](assets/screenshots/header.jpg)
 
+[Back to Top](#super-cars)
+
 ### Home Page
   It contains a hero image with two short lines of text, descriptions “About Us” and “Our Mission”, following with a services commitment section “Our Commitment” to emphasis Super Cars company’s unique business scope and quality excellent service. This is very inviting and much enthusiasm with promises to gain the trust from the users coming forward to purchase luxurious cars.
 
 * Hero Section
 
 ![Hero image](assets/screenshots/hero.jpg)
+
+[Back to Top](#super-cars)
 
 * About Us and Our Mission
 
@@ -140,6 +156,8 @@ The website contians four pages. All of pages are responsive accordingly on diff
 All of four pages have the same footer at the bottom of the website that includes contact details, business hours info, social media links, copyright text and disclaimer.
 
 ![Footer](assets/screenshots/footer.jpg)
+
+[Back to Top](#super-cars)
 
 ### Our Stock Page
 The page contains a brief description about the characters of Lamborghini Sian and Bugatti Chiron. There is a photo gallery with a huge collection of different model luxurious cars available in the Super Cars showroom. 
@@ -162,6 +180,7 @@ The page contains an image and a short thank you message after user send the mes
 ![Form-feedback page](assets/screenshots/formfdbk.jpg)
 
 [Back to Top](#super-cars)
+
 ### Future Features
 
 * An option to add animation for the hero image on the Home page. It gives user better visual impression about the car.
@@ -171,6 +190,7 @@ The page contains an image and a short thank you message after user send the mes
 * A slideshow photo gallery for Our Stock page for mobile users. It is easier for small screen users to swipe the screen to view the images.
   
 [Back to Top](#super-cars)
+
 ## Technologies Used
 
 * [HTML5]() - for creating Super Cars website structure with text and images.
@@ -192,6 +212,7 @@ The page contains an image and a short thank you message after user send the mes
   All the codes for the Super Cars website are validated on the [W3C HTML Markup Validation]() and [W3C CSS Validation]() services by entering the Super Cars' URL. 
 
 * W3C Markup Validation - No errors found.
+
   * Home Page
 
     ![Home page](assets/screenshots/w3chome.jpg)
@@ -199,7 +220,9 @@ The page contains an image and a short thank you message after user send the mes
   * Our Stock Page
 
     ![Our stock page](assets/screenshots/w3cgallery.jpg)
+
 [Back to Top](#super-cars)
+
   * Contact Page
 
     ![Contact page](assets/screenshots/w3ccontact.jpg)
@@ -220,6 +243,8 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 
   ![Result for the desktop](assets/screenshots/lghthousescr.jpg)
 
+[Back to Top](#super-cars)
+
 * Mobile
 
   ![Result for the mobile](assets/screenshots/lghthousescr1.jpg)
@@ -239,6 +264,7 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 |Links  |  &check;    |   &check;     |   &check;    |  &check; |    &check;   |        &check;       |        &check;        | 
 
 [Back to Top](#super-cars)
+
 * The website was tested and passed on my own devices. It is fully responsive on two desktops, two laptops, iPad Air and  three mobile phones. 
 
 |       |**Galaxy Note4**|**Nokia 7 Plus**|**Huawei P30 Pro**|**iPad Air**|**Lenovo E540**|**HP Elitebook 850 G5**|**DELL 2407WFP**|**Yiyama ProLite XB3288UHSU**|
@@ -247,8 +273,11 @@ The website has been tested on Chrome Incognito window using dev tools for both 
 |Image  |    &check;     |   &check;      |      &check;     |   &check;  |    &check;    |        &check;        |     &check;     |        &check;             |
 |Links  |    &check;     |   &check;      |      &check;     |   &check;  |    &check;    |        &check;        |     &check;     |        &check;             |
 
+[Back to Top](#super-cars)
+
 ### Testing on the browsers
 The website is accessible on the following browsers. It is fully responsive on devices with different screen sizes while using these browsers.
+
 * **Google Chrome** 
 * **Microsoft Edge**
 * **Safari**
@@ -264,6 +293,8 @@ The website is accessible on the following browsers. It is fully responsive on d
     ![W3C HTML validation result](assets/screenshots/w3check.jpg)
 
 * Lighthouse testing issues due to the large size of the images and color contrast.
+
+[Back to Top](#super-cars)
 
 * Resolved
   
@@ -287,6 +318,8 @@ The website is accessible on the following browsers. It is fully responsive on d
 
         The initial scores were between 92% - 96% due to some minor issues that the background and foreground contrast, the font size for small screens, and the headings' order. 
 
+[Back to Top](#super-cars)
+
       * To improve the accessibility score
 
         * Changed the background color of “commitment list” for better contrast with the text color. 
@@ -294,9 +327,55 @@ The website is accessible on the following browsers. It is fully responsive on d
         * Added a h3 heading to the gallery page to make the headings in a sequentially descending order. 
         * Adjusted the header element to avoid the elements overlapping on small screens. 
 
-    * SEO Score
+      * SEO Score
 
       SEO scores were initially 97% on all pages due to the typo on the footer element. Corrected the typo on the social media links “noopenner” to “noopener”. 
+
+[Back to Top](#super-cars)
+
+### Testing User Stories
+
+* As a first time user, I want the website to be easily accessible on different devices and work on different browsers.
+
+  * Super Cars website is accessible on the most commonly used web browsers:
+      * Google Chrome
+      * Microsoft Edge
+      * Safari
+      * Mozilla Firefox.
+  
+    * The website is responsive on a range of media devices from 320px to large screens  up to 3000px with
+
+* As a first time user, I want to easily navigate around the page for getting to know what the site is about.
+
+  * The clear navigation menu on the top of every page gives user an easy way of viewing different pages. 
+  
+  * The description on the Home page About Us that provides clear information about Super Cars company and its business.
+
+  * The sticky header gives user a quick access to different page on the small screens no matter where user is on the website.
+
+[Back to Top](#super-cars)
+
+* As a returning user, the name of website should be easy to type and remember. The images need to be high quality and the text should be easy to read.
+  
+  * The name “Super Cars” is simple yet attractive and easy to type and remember. 
+  * The text on the website is easy to read with popular web fonts and proper  font size.
+  * The images are clear and high quality with different styles.
+
+* As a returning user, I want the car dealer's website not only provide a collection of cars but also information about the range of services available for further visiting.
+
+  * On the home page, Our Mission and Our Commitment section clearly show what the server packages are provided to user.
+
+* As a frequent user, I want to know more about cars' design and other features when buying cars.
+
+  * A total of 27 images on the site where user can easily find the different model cars with different design and style.
+
+[Back to Top](#super-cars)
+
+* As a frequent user, I want to know the contact details of Super cars company for viewing and test drive.
+
+  * User is able to easily find own preferred contact method on every page to contact Super Cars company.
+  * On every page of the site provides detailed contact information such as physical address, phone number, email address, different social media platforms.
+  * In addition, on the Contact page, there is a contact form for sending q quick message.
 
 [Back to Top](#super-cars)
 
@@ -361,6 +440,8 @@ The Super Cars website was deployed to GitHub page. This is the link - <https://
   * [EightShape Contrast]() - auto-make color contrast grid.
 
   * [Squoosh]() & [Compressor]() - compress and convert the site's images.
+
+[Back to Top](#super-cars)
 
   * [Am I Responsive]() - generate site's responsiveness on different screens.
 
